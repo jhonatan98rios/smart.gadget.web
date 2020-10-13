@@ -1,8 +1,11 @@
-import React from 'react';
-import Carousel from '../../components/Results/Carousel'
 import Link from 'next/link'
+import { withRouter } from 'next/router'
+import Head from 'next/head'
+
+import Carousel from '../../components/Results/Carousel'
 
 import styles from './style.module.scss'
+import { useEffect } from 'react'
 
 const content = {
   data: [
@@ -45,15 +48,29 @@ const content = {
   ]
 }
 
-function Results(){
+function Results({router}){
+
+  useEffect(() => {
+    console.log(router.query.search)
+  }, [router])
+
   return (
-    <div className={styles.container}>
-      <Carousel content={content} />
-      <div className={styles.button}>
-        <Link className="link" href="/"> Início </Link>
+    <div>
+
+      <Head>
+        <title>Smart Gadget | Resultado</title>
+        <description> Encontre o pc ideal para você </description>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <div className={styles.container}>
+        <Carousel content={content} />
+        <div className={styles.button}>
+          <Link className="link" href="/"> Início </Link>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Results;
+export default withRouter(Results);
