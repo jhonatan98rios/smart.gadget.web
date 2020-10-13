@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "flickity": "^2.2.1",
     "next": "9.5.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-flickity-component": "^3.5.0",
+    "sass": "^1.27.0"
   }
 }

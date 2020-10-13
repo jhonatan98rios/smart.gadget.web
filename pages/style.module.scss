@@ -1,0 +1,92 @@
+.container{
+  width: 85%;
+  margin: 80px auto;
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media ( max-height: 650px ) {
+    margin: 16px auto;
+  }
+
+  .title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 0px 0px 5px rgba(0,0,0,.7);
+    font-family: 'Darker Grotesque';
+    margin: 0 auto 48px;
+
+    @media ( max-height: 650px ) {
+      margin: 0 auto 16px;
+    }
+  }
+
+  .label{
+    color: #fff;
+    font-size: clamp(18px, 5.2vw, 22px);
+    font-weight: lighter;
+    max-width: 90%;
+    line-height: 25px;
+    font-family: 'Darker Grotesque';
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link{
+    color: #fff;
+    text-decoration: none;
+    width: 124px;
+    font-size: 20px;
+  }
+} 
+
+.input{
+  max-width: 85%;
+  width: calc(330px - 32px);
+  height: calc(120px - 32px);
+  margin: 32px auto 0px;
+  padding: 16px;
+  border: 1px solid #fff;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 10px;
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  font-weight: lighter;
+  resize: none;
+  font-family: 'Darker Grotesque';
+
+  &::placeholder{
+    font-size: 20px;
+    color: rgba(255,255,255,.3);
+    font-weight: lighter;
+  }
+}
+
+.button{
+  max-width: 300px;
+  width: 80%;
+  height: 70px;
+  margin: 16px auto;
+  border: none;
+  font-size: 20px;
+  background-color: #aaa;
+  //background-image: ${({disabled}) => disabled ? 'none' : `linear-gradient(to right, #05b, #28d)`};
+  background-image: linear-gradient(to right, #05b, #28d);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media ( max-height: 650px ) {
+    margin: 12px auto;
+    height: 60px;
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+}

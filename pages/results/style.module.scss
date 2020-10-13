@@ -1,0 +1,36 @@
+.container{
+  width: 85%;
+	margin: 32px auto;
+	text-align: center;
+
+	@media ( max-height: 650px ) {
+		margin: 16px auto;
+  }
+  
+}
+
+.button{
+  max-width: 300px;
+  width: 80%;
+  height: 70px;
+  margin: 16px auto;
+  border: none;
+  font-size: 20px;
+  background-color: #aaa;
+  //background-image: ${({disabled}) => disabled ? 'none' : `linear-gradient(to right, #05b, #28d)`};
+  background-image: linear-gradient(to right, #05b, #28d);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media ( max-height: 650px ) {
+    margin: 12px auto;
+    height: 60px;
+  }
+
+  .link{
+    color: #fff;
+    text-decoration: none;
+  }
+}
