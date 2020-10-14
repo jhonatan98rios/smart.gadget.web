@@ -5,7 +5,7 @@ const db = require('../mockdata/db.json')
 
 /* read model */
 function readTrain() {
-  natural.BayesClassifier.load('../mockdata/classifier.json', null, function(err, classifier) {
+  natural.BayesClassifier.load('./mockdata/classifier.json', null, function(err, classifier) {
     if(err) {
       return err
     } 
@@ -14,12 +14,11 @@ function readTrain() {
 }
 
 function saveTrain(classifier){
-  classifier.save('../mockdata/classifier.json', function(err, classifier) {
+  classifier.save('./mockdata/classifier.json', function(err, classifier) {
     if (err) console.log(err)
-    console.log(classifier)
+    //console.log(classifier)
   });
 }
-
 
 /* IA function */
 const getGadget = async function (request){
@@ -27,12 +26,14 @@ const getGadget = async function (request){
   /* Do a train in database */
   try {
     classifier = readTrain()
+    console.log('Read')
   }catch{
     db.train.forEach((item)=>{
       classifier.addDocument(item.text, item.label);
     })
     classifier.train();
     saveTrain(classifier)
+    console.log('New')
   }  
       
   /* Get the label of the sended specification */
