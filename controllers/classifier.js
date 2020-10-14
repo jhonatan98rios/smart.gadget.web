@@ -1,44 +1,45 @@
 const natural = require('natural');
+const classifier = new natural.BayesClassifier();
+
 const database = require('../mockdata/db.json')
 const {notebooks} = require('../mockdata/notebooks.json')
 
-class TextClassifier {
+export class TextClassifier {
 
-  constructor(){
-    this.database = database
-    this.classifier = new natural.BayesClassifier();
-  }
-
-  train(){
-    this.database.train.forEach((item) => {
-      this.classifier.addDocument(item.text, item.label);
+  static train(){
+    database.train.forEach((item) => {
+      classifier.addDocument(item.text, item.label);
     })
-    this.classifier.train();
-    return this.classifier
+    classifier.train();
+    return classifier
   }
 
-  useSavedTrain(){
+  static useSavedTrain(){
     natural.BayesClassifier.load('classifier.json', null, function(err, classifier) {
-      if (err) return err
-      this.classifier = classifier
+      if (err) return null
+      classifier = classifier
     });
-    return this.classifier
+    return classifier
   }
 
-  saveTrain(){
-    this.classifier.save('classifier.json', function(err, classifier) {
+  static saveTrain(classifier){
+    classifier.save('classifier.json', function(err, classifier) {
       if (err) return err
       return 'Train has been saved'
     })
   }
 
-  makeClassification(text){
+  static makeClassification(text){
+
+    const savedTrain = this.useSavedTrain()
+    const _classifier = savedTrain ? savedTrain : this.train()
+    this.saveTrain(_classifier)
     
     /* Get the label of the sended specification */
-    let label = this.classifier.classify(text);
+    const label = _classifier.classify(text);
 
     /* Object literals is like a switch case method */
-    let specs = {
+    const specs = {
       'xlow': notebooks.xlow,
       'low': notebooks.low,
       'medium': notebooks.medium,
@@ -52,6 +53,3 @@ class TextClassifier {
     return specs[label] || specs["default"]
   }
 }
-
-
-export default TextClassifier

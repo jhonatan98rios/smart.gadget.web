@@ -1,18 +1,15 @@
-const { TextClassifier } = require('../../controllers/classifier')
+const {TextClassifier} = require('../../controllers/classifier')
 
 export default (req, res) => {
-
-  const classifier = new TextClassifier()
 
   const {
     query: { text },
   } = req
 
-  classifier.train()
+  //textClassifier.train()
   //classifier.saveTrain()
 
-  let result = classifier.makeClassification(text)
-  
+  let result = TextClassifier.makeClassification(text)  
 
   res.statusCode = 200
   res.json({ result })
