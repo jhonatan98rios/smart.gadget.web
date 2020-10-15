@@ -4,7 +4,7 @@ import { withRouter, useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-import Carousel from '../../components/Results/Carousel'
+import Carousel from '../../components/results/carousel'
 import styles from './style.module.scss'
 
 function Results({router}){
