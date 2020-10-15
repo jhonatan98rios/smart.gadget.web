@@ -1,8 +1,8 @@
 import Head from 'next/head'
+import { useState } from 'react'
 import { useRouter } from 'next/router'
 
 import styles from './style.module.scss'
-import { useState } from 'react'
 
 export default function Home() {
 
