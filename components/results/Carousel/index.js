@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import Flickity from 'react-flickity-component'
 
 import styles from './style.module.scss'
@@ -15,10 +14,6 @@ const flickityOptions = {
 
 function Carousel({content}) {
 
-  useEffect(() => {
-    console.log(content)
-  }, [])
-
   return (
     <div>
       <Flickity
@@ -30,7 +25,7 @@ function Carousel({content}) {
         static
       >
 
-        { content.data.map((notebook, index)=>{
+        { content?.data.map((notebook, index)=>{
           return(
             <div className={styles.card} key={index}>
               <div className={styles.imageBox}>
