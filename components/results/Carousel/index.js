@@ -25,7 +25,7 @@ function Carousel({content}) {
         static
       >
 
-        { content?.data.map((notebook, index)=>{
+        { content.data.map((notebook, index)=>{
           return(
             <div className={styles.card} key={index}>
               <div className={styles.imageBox}>

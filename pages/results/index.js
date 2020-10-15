@@ -1,13 +1,11 @@
-import Link from 'next/link'
-import { withRouter } from 'next/router'
-import { useRouter } from 'next/router'
 import Head from 'next/head'
-
-import Carousel from '../../components/Results/Carousel'
-
-import styles from './style.module.scss'
+import Link from 'next/link'
+import { withRouter, useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+
+import Carousel from '../../components/Results/Carousel'
+import styles from './style.module.scss'
 
 function Results({router}){
 
