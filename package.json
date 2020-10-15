@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "11.x"
+    "node": "10.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -15,7 +15,7 @@
     "axios": "^0.20.0",
     "flickity": "^2.2.1",
     "natural": "^2.1.5",
-    "next": "9.5.5",
+    "next": "9.5.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-flickity-component": "^3.5.0",
