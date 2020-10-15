@@ -29,7 +29,7 @@ function Results({router}){
     <div>
       <Head>
         <title>Smart Gadget | Resultado</title>
-        <meta name="description" content="Encontre o pc ideal para você"></meta>
+        <meta name="description" content="Veja os pcs que separamos para você"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
