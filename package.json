@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "flickity": "^2.2.1",
     "natural": "^2.1.5",
     "next": "9.5.5",

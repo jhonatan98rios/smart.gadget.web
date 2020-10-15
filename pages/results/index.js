@@ -1,70 +1,40 @@
 import Link from 'next/link'
 import { withRouter } from 'next/router'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import Carousel from '../../components/Results/Carousel'
 
 import styles from './style.module.scss'
-import { useEffect } from 'react'
-
-const content = {
-  data: [
-    {
-      image: 'https://s2.glbimg.com/P_xNC3JLsCLd5FZmgF25Fiseqyc=/0x0:1024x820/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/8/vBgzB8RiqZEjt1dvLpXQ/product-1-20200512115231-5eba1d7f42d90.png',
-      name: 'Notebook',
-      cpu: '',
-      storage: '',
-      ram: '',
-      gpu: '',
-      so: '',
-      screen: '',
-      weight: '',
-      price: ''
-    },
-    {
-      image: 'https://s2.glbimg.com/P_xNC3JLsCLd5FZmgF25Fiseqyc=/0x0:1024x820/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/8/vBgzB8RiqZEjt1dvLpXQ/product-1-20200512115231-5eba1d7f42d90.png',
-      name: 'Notebook',
-      cpu: '',
-      storage: '',
-      ram: '',
-      gpu: '',
-      so: '',
-      screen: '',
-      weight: '',
-      price: ''
-    },
-    {
-      image: 'https://s2.glbimg.com/P_xNC3JLsCLd5FZmgF25Fiseqyc=/0x0:1024x820/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/8/vBgzB8RiqZEjt1dvLpXQ/product-1-20200512115231-5eba1d7f42d90.png',
-      name: 'Notebook',
-      cpu: '',
-      storage: '',
-      ram: '',
-      gpu: '',
-      so: '',
-      screen: '',
-      weight: '',
-      price: ''
-    }
-  ]
-}
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 function Results({router}){
 
+  const [content, setContent] = useState(null)
+  const routing = useRouter()
+
   useEffect(() => {
-    console.log(router.query.search)
-  }, [router])
+    if(!router.query.search) {
+      routing.push('/')
+    }else{
+      axios.post('/api/smart', {
+        text: router.query.search, 
+      })
+      .then(response => setContent(response))
+      .catch(reject => console.log(reject))
+    }
+  }, [])
 
   return (
     <div>
-
       <Head>
         <title>Smart Gadget | Resultado</title>
-        <description> Encontre o pc ideal para você </description>
+        <meta name="description" content="Encontre o pc ideal para você"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className={styles.container}>
-        <Carousel content={content} />
+        { content?.status == 200 && <Carousel content={content} /> }
         <div className={styles.button}>
           <Link className="link" href="/"> Início </Link>
         </div>

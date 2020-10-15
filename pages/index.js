@@ -7,23 +7,34 @@ import { useState } from 'react'
 export default function Home() {
 
   const [search, setSearch] = useState('')
+  const [warning, setWarning] = useState('')
   const router = useRouter()
 
   function handleClick(e){
     e.preventDefault()
-    router.push({
-      pathname: '/results',
-      query: { 
-        search
-      }
-    })
+
+    if(search.length <= 0){
+      setWarning('Me fale um pouco sobre o computador que precisa')
+    }else if(search.length <= 8){
+      setWarning('Esse texto é muito curto. Me fale um pouco mais')
+    }else if(search.length > 1024){
+      setWarning('O texto não pode ter mais 1024 caracteres')
+    }else{
+      setWarning(null)
+      router.push({
+        pathname: '/results',
+        query: { 
+          search
+        }
+      })
+    }
   }
 
   return (
     <div>
       <Head>
         <title>Smart Gadget</title>
-        <description> Encontre o pc ideal para você </description>
+        <meta name="description" content="Encontre o pc ideal para você"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -40,6 +51,7 @@ export default function Home() {
               onChange={e => setSearch(e.target.value) }
             />
           </label>
+          { warning && <div className={styles.warning}> { warning } </div> }
           <div className={styles.button}>
             <div 
               className={styles.link} 

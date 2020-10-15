@@ -3,12 +3,16 @@
   height: 430px;
   margin: 0 auto;
 
+  &:focus{
+    outline: none;
+  }
+
   @media ( max-height: 650px ) {
     height: 400px;
   }
 
   .card{
-    min-height: 330px;
+    min-height: 360px;
     width: calc(80% - 50px);
     min-width: 200px;
     background-color: #fff;

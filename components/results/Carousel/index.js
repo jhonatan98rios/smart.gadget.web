@@ -15,8 +15,8 @@ const flickityOptions = {
 
 function Carousel({content}) {
 
-  useEffect(()=>{
-    
+  useEffect(() => {
+    console.log(content)
   }, [])
 
   return (

@@ -16,7 +16,6 @@ function readTrain() {
 function saveTrain(classifier){
   classifier.save('./mockdata/classifier.json', function(err, classifier) {
     if (err) console.log(err)
-    //console.log(classifier)
   });
 }
 
@@ -26,14 +25,12 @@ const getGadget = async function (request){
   /* Do a train in database */
   try {
     classifier = readTrain()
-    console.log('Read')
   }catch{
     db.train.forEach((item)=>{
       classifier.addDocument(item.text, item.label);
     })
     classifier.train();
-    saveTrain(classifier)
-    console.log('New')
+    //saveTrain(classifier)
   }  
       
   /* Get the label of the sended specification */
