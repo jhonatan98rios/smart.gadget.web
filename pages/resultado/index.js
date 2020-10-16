@@ -15,7 +15,7 @@ function Results({router}){
 
   function handleClick(e){
     e.preventDefault()
-    router.push('/')
+    router.push('/pesquisar')
   }
 
   useEffect(() => {
