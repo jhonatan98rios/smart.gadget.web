@@ -51,12 +51,9 @@ export default function Home() {
               onChange={e => setSearch(e.target.value) }
             />
           </label>
-          { warning && <div className={styles.warning}> { warning } </div> }
-          <div className={styles.button}>
-            <div 
-              className={styles.link} 
-              onClick={ handleClick }
-            > 
+          { warning && <div className={`${styles.warning} m-t-16 `}> { warning } </div> }
+          <div className={`${styles.button} p-l-16 p-r-16`} onClick={ handleClick }>
+            <div className={styles.link}> 
               Confirmar 
             </div> 
           </div> 

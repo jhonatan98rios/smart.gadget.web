@@ -13,6 +13,11 @@ function Results({router}){
   const [content, setContent] = useState(null)
   const routing = useRouter()
 
+  function handleClick(e){
+    e.preventDefault()
+    router.push('/')
+  }
+
   useEffect(() => {
     if(!router.query.search) {
       routing.push('/')
@@ -33,9 +38,10 @@ function Results({router}){
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
+        <h2 className={`${styles.title} m-b-48`}> Veja o que separamos para você </h2>
         { content?.status == 200 && <Carousel content={content} /> }
-        <div className={styles.button}>
-          <Link className="link" href="/"> Início </Link>
+        <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
+          <div className={styles.link}> Início </div>
         </div>
       </div>
     </div>
