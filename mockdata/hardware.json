@@ -1,0 +1,122 @@
+{
+    "assign": {
+      "copyright": "Jhonatan Rios",
+      "data": "23/10/2020"
+    },
+    "hardware": {
+      "xlow": [
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel Pentium G5400 (8 geração)",
+          "storage": "SSD 120GB",
+          "ram": "4GB DDR4",
+          "gpu": "UHD Graphics 610",
+          "fonte": "300W",
+          "price": "R$1800,00"
+        },
+        {
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Ryzen 3 3200G",
+          "storage": "SSD 128GB",
+          "ram": "4GB DDR4",
+          "gpu": "Radeon Vega 8 Graphics",
+          "fonte": "500W",
+          "price": "R$1800,00"
+        },
+        {
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Ryzen 5 3350G",
+          "storage": "SSD 256GB",
+          "ram": "8GB DDR4",
+          "gpu": "Radeon Vega 8 Graphics",
+          "fonte": "500W",
+          "price": "R$2200,00"
+        }
+      ],
+      "low": [
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel Pentium G5400 (8 geração)",
+          "storage": "SSD 120GB",
+          "ram": "8GB DDR4",
+          "gpu": "RADEON RX550 2GB",
+          "fonte": "500W",
+          "price": "R$2400,00"
+        },
+        {
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Ryzen 3 3200G",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "RADEON RX550 2GB",
+          "fonte": "500W",
+          "price": "R$2500,00"
+        },
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I3 8100 (8 geração)",
+          "storage": "SSD 120GB",
+          "ram": "8GB DDR4",
+          "gpu": "RADEON RX550 2GB",
+          "fonte": "500W",
+          "price": "R$2800,00"
+        }
+      ],
+      "medium": [
+        {
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Ryzen 5 3500X",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "RADEON RX550 2GB",
+          "fonte": "500W",
+          "price": "R$3400,00"
+        },
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I3 9100F (9 geração)",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "GEFORCE GTX 1650 4GB",
+          "fonte": "500W",
+          "price": "R$3400,00"
+        },
+        {
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Ryzen 3 3200G",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "RADEON RX5500 XT 4GB OC",
+          "fonte": "500W",
+          "price": "R$3600,00"
+        }
+      ],
+      "high": [
+        {
+
+        }
+      ],
+      "xhigh": [
+        {
+
+        }
+      ],
+      "premium": [
+        {
+
+        }
+      ],
+      "pro": [
+        {
+
+        }
+      ]
+    }
+  }
