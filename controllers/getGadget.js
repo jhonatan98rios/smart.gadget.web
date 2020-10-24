@@ -47,9 +47,6 @@ const getGadget = async function (request){
     'pro': notebooks.pro,
     'default': {"message":"Sua busca falhou, tente mais tarde"}
   };
-
- /*  let result = specs[label] || specs["default"]
-  result.label = label */
     
   return specs[label] || specs["default"]
 }
