@@ -12,5 +12,5 @@ export default async (req, res) => {
 		res.statusCode = 500
 		result = { message: 'Houve um problema ao executar a operação. Tente mais tarde'};
 	}
-	res.send(result)
+res.send(result)
 }

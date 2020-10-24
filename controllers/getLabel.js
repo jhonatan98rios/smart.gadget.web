@@ -20,7 +20,7 @@ function saveTrain(classifier){
 }
 
 /* IA function */
-const getGadget = async function (request){
+const getLabel = async function (request){
   
   /* Do a train in database */
   try {
@@ -32,27 +32,9 @@ const getGadget = async function (request){
     classifier.train();
     //saveTrain(classifier)
   }  
-      
-  /* Get the label of the sended specification */
-  let label = classifier.classify(request.text);
-      
-    /* Object literals is like a switch case method */
-  let specs = {
-    'xlow': notebooks.xlow,
-    'low': notebooks.low,
-    'medium': notebooks.medium,
-    'high': notebooks.high,
-    'xhigh': notebooks.xhigh,
-    'premium': notebooks.premium,
-    'pro': notebooks.pro,
-    'default': {"message":"Sua busca falhou, tente mais tarde"}
-  };
-
- /*  let result = specs[label] || specs["default"]
-  result.label = label */
     
-  return specs[label] || specs["default"]
+  return classifier.classify(request.text);
 }
 
 
-module.exports = getGadget
+module.exports = getLabel

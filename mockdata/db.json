@@ -167,8 +167,8 @@
 		{ "text": "PC Rápido", "label": "medium" },
 		{ "text": "Computador para programas pesados", "label": "xhigh" },
 		{ "text": "PC para uso cotidiano", "label": "xlow" },
-		{ "text": "Notebook para uso simples", "label": "xlow" },
-		{ "text": "Computador para uso simples", "label": "xlow" },
+		{ "text": "Notebook para uso simples", "label": "low" },
+		{ "text": "Computador para uso simples", "label": "low" },
 		{ "text": "Notebook para navegação na internet", "label": "xlow" },
 		{ "text": "PC para navegação", "label": "xlow" },
 		{ "text": "Notebook para redes sociais", "label": "xlow" },
@@ -200,13 +200,26 @@
 		{ "text": "Computador para rodar Lubuntu", "label": "xlow"},
 		{ "text": "Computador para rodar Linux Mint", "label": "low"},
 		{ "text": "Computador para rodar Deepin", "label": "medium"},
-		{ "text": "Computador para Hackintosh", "label": "medium"}
+		{ "text": "Computador para Hackintosh", "label": "medium"},
+
+		{ "text": "Pretendo montar um computador para as seguintes funções e programas. Orçamento R$4.000 (se puder parcelar, pode ir até uns 4.500 e 5.000), Edição de videos em 4k (Adobe Premiere Pro), Render animações (After Effects), Color Grading (DaVinci Resolve), Tratamento de fotografia (Lightroom)", "label": "xhigh"},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""},
+		{ "text": "", "label": ""}
 	],
 
-	"test" : [
+	"tests" : [
 		{ "text": "PC Gamer", "label": "medium" },
 		{ "text": "PC simples", "label": "low"},
-		{ "text": "Computador simples", "label": "xlow"},
+		{ "text": "Computador simples", "label": "low"},
 		{ "text": "PC para uso leve", "label": "low"},
 		{ "text": "Maquina Gamer", "label": "medium"},
 		{ "text": "Maquina para jogar jogos leves", "label": "low"},
