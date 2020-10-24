@@ -1,5 +1,5 @@
 const getGadget = require('../controllers/getGadget')
-const {notebooks} = require('../mockdata/notebooks.json')
+const {hardware} = require('../mockdata/hardware.json')
 const {tests} = require('../mockdata/db.json')
 
 tests.map((request, i)=>{
@@ -7,9 +7,9 @@ tests.map((request, i)=>{
   let client = { text: request.text }
   let label = request.label
 
-  test(`Should return ${label} notebooks: ${i}`, () => {
+  test(`Should return ${label} hardware: ${i}`, () => {
     return getGadget(client).then(data => {
-      expect(data).toBe(notebooks[label]);
+      expect(data).toBe(hardware[label]);
     });
   });
 
