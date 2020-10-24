@@ -1,6 +1,6 @@
 {
     "assign": {
-      "copyright": "Jhonatan Rios",
+      "copyright": "Jhonatan Teixeira Rios",
       "data": "23/10/2020"
     },
     "hardware": {
@@ -71,51 +71,159 @@
           "image": "",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "Ryzen 5 3500X",
-          "storage": "HD 1TB",
+          "storage": "HD 1TB + SSD 120GB",
           "ram": "8GB DDR4",
           "gpu": "RADEON RX550 2GB",
           "fonte": "500W",
-          "price": "R$3400,00"
-        },
-        {
-          "image": "",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I3 9100F (9 geração)",
-          "storage": "HD 1TB",
-          "ram": "8GB DDR4",
-          "gpu": "GEFORCE GTX 1650 4GB",
-          "fonte": "500W",
-          "price": "R$3400,00"
+          "price": "R$3600,00"
         },
         {
           "image": "",
           "moba": "A320MH AM4 AMD A320",
-          "cpu": "Ryzen 3 3200G",
-          "storage": "HD 1TB",
+          "cpu": "RYZEN 5 3500X",
+          "storage": "HD 1TB  + SSD 120GB",
           "ram": "8GB DDR4",
-          "gpu": "RADEON RX5500 XT 4GB OC",
+          "gpu": "GEFORCE GTX 1650 SUPER 4GB",
           "fonte": "500W",
-          "price": "R$3600,00"
+          "price": "R$4100,00"
+        },
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I5 9400F",
+          "storage": "HD 1TB + SSD 120GB",
+          "ram": "8GB DDR4",
+          "gpu": "GEFORCE GTX 1660 6GB OC",
+          "fonte": "500W",
+          "price": "R$4400,00"
         }
       ],
       "high": [
         {
-
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I7 9700F",
+          "storage": "HD 1TB + SSD 240GB",
+          "ram": "16GB DDR4",
+          "gpu": "GEFORCE GTX 1660 6GB OC",
+          "fonte": "500W",
+          "price": "R$5500,00"
+        },
+        {
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "RYZEN 5 3500X",
+          "storage": "HD 1TB + SSD 240GB",
+          "ram": "16GB DDR4",
+          "gpu": "RADEON RX 5700 XT 8GB",
+          "fonte": "600W",
+          "price": "R$6000,00"
+        },
+        {
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "Intel I5 10400F",
+          "storage": "HD 1TB + SSD 240GB",
+          "ram": "16GB DDR4",
+          "gpu": "GEFORCE RTX 2060 SUPER 8GB ZOTAC",
+          "fonte": "600W",
+          "price": "R$6200,00"
         }
       ],
       "xhigh": [
         {
-
+          "image": "",
+          "moba": "A320MH AM4 AMD A320",
+          "cpu": "RYZEN 5 3600X",
+          "storage": "HD 1TB + SSD 480GB",
+          "ram": "16GB DDR4",
+          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+          "fonte": "650W",
+          "price": "R$8200,00"
+        },
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I7-9700K",
+          "storage": "HD 1TB + SSD 480GB",
+          "ram": "16GB DDR4",
+          "gpu": "GEFORCE RTX 2070 SUPER 8GB",
+          "fonte": "600W",
+          "price": "R$8300,00"
+        },
+        {
+          "image": "",
+          "moba": "H310M LGA 1151",
+          "cpu": "Intel I9 9900K",
+          "storage": "HD 1TB + SSD 480GB",
+          "ram": "16GB DDR4",
+          "gpu": " GEFORCE RTX 2060 6GB GIGABYTE",
+          "fonte": "650W",
+          "price": "R$8500,00"
         }
       ],
       "premium": [
         {
-
+          "image": "",
+          "moba": "B450M-Gaming AM4 AMD",
+          "cpu": "RYZEN 9 3900X",
+          "storage": "HD 2TB + SSD 960GB",
+          "ram": "32GB DDR4",
+          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+          "fonte": "700W",
+          "price": "R$11000,00"
+        },
+        {
+          "image": "",
+          "moba": "Z390",
+          "cpu": "Intel I7-9700KF",
+          "storage": "HD 2TB + SSD 960GB",
+          "ram": "32GB DDR4",
+          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+          "fonte": "700W",
+          "price": "R$11500,00"
+        },
+        {
+          "image": "",
+          "moba": "iMac Apple 27 5k",
+          "cpu": "Intel Core i5",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "Radeon Pro 570X 4GB",
+          "fonte": "700W",
+          "price": "R$15000,00"
         }
       ],
       "pro": [
         {
-
+          "image": "",
+          "moba": "Mac Mini Apple",
+          "cpu": "Intel Core i3",
+          "storage": "SSD 256GB",
+          "ram": "8GB DDR4",
+          "gpu": "Intel UHD Graphics 630",
+          "fonte": "500W",
+          "price": "R$6600,00"
+        },
+        {
+          "image": "",
+          "moba": "iMac Apple",
+          "cpu": "Intel Core i3",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "Radeon Pro 555X 2GB",
+          "fonte": "500W",
+          "price": "R$12000"
+        },
+        {
+          "image": "",
+          "moba": "iMac Apple 27 5k",
+          "cpu": "Intel Core i5",
+          "storage": "HD 1TB",
+          "ram": "8GB DDR4",
+          "gpu": "Radeon Pro 570X 4GB",
+          "fonte": "500W",
+          "price": "R$15000,00"
         }
       ]
     }
