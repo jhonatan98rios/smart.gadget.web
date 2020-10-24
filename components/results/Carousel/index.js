@@ -29,7 +29,7 @@ function Carousel({content}) {
           return(
             <div className={styles.card} key={index}>
               <div className={styles.imageBox}>
-                <img className={styles.image} src={notebook.image} alt="notebook" />
+                { notebook.image && <img className={styles.image} src={notebook.image} alt="notebook" /> }
               </div>
               <div className={styles.description}>
                 <strong> {notebook.name} </strong>
