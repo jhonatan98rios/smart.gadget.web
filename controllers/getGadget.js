@@ -1,54 +1,48 @@
 const natural = require('natural');
-const classifier = new natural.BayesClassifier();
-const {notebooks} = require('../mockdata/notebooks.json')
+const {hardware} = require('../mockdata/hardware.json')
 const db = require('../mockdata/db.json')
+const fs = require('fs');
 
-/* read model */
-function readTrain() {
-  natural.BayesClassifier.load('./mockdata/classifier.json', null, function(err, classifier) {
-    if(err) {
-      return err
-    } 
-    return classifier
-  });
-}
 
-function saveTrain(classifier){
-  classifier.save('./mockdata/classifier.json', function(err, classifier) {
-    if (err) console.log(err)
-  });
-}
-
-/* IA function */
 const getGadget = async function (request){
-  
-  /* Do a train in database */
+
+  let classifier;
+
   try {
-    classifier = readTrain()
-  }catch{
-    db.train.forEach((item)=>{
-      classifier.addDocument(item.text, item.label);
-    })
+    // Read the classifier file with model saved
+    const raw = fs.readFileSync('./mockdata/classifier.json'); 
+    classifier = natural.BayesClassifier.restore(JSON.parse(raw));
+
+  } catch {
+    // Train the model and save he in classifier
+    classifier = new natural.BayesClassifier();
+    db.train.forEach((item) => classifier.addDocument(item.text, item.label))
     classifier.train();
-    //saveTrain(classifier)
-  }  
-      
-  /* Get the label of the sended specification */
-  let label = classifier.classify(request.text);
-      
-    /* Object literals is like a switch case method */
-  let specs = {
-    'xlow': notebooks.xlow,
-    'low': notebooks.low,
-    'medium': notebooks.medium,
-    'high': notebooks.high,
-    'xhigh': notebooks.xhigh,
-    'premium': notebooks.premium,
-    'pro': notebooks.pro,
-    'default': {"message":"Sua busca falhou, tente mais tarde"}
-  };
+
+    // Write the content
+    /* var raw = JSON.stringify(classifier);
+    fs.writeFile('./mockdata/classifier.json', raw, function (err) {
+      if (err) return console.log(err);
+      console.log('WriteFile')
+    }) */
+
+  } finally {
     
-  return specs[label] || specs["default"]
+    /* Classifie the requested phrase */
+    const label = classifier.classify(request.text);
+    let specs = {
+      'xlow': hardware.xlow,
+      'low': hardware.low,
+      'medium': hardware.medium,
+      'high': hardware.high,
+      'xhigh': hardware.xhigh,
+      'premium': hardware.premium,
+      'pro': hardware.pro,
+      'default': {"message":"Sua busca falhou, tente mais tarde"}
+    };
+      
+    return specs[label] || specs["default"]
+  }
 }
 
 

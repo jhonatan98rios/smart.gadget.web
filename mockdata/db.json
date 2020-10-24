@@ -202,18 +202,16 @@
 		{ "text": "Computador para rodar Deepin", "label": "medium"},
 		{ "text": "Computador para Hackintosh", "label": "medium"},
 
-		{ "text": "Pretendo montar um computador para as seguintes funções e programas. Orçamento R$4.000 (se puder parcelar, pode ir até uns 4.500 e 5.000), Edição de videos em 4k (Adobe Premiere Pro), Render animações (After Effects), Color Grading (DaVinci Resolve), Tratamento de fotografia (Lightroom)", "label": "xhigh"},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""},
-		{ "text": "", "label": ""}
+		{ "text": "Computador até 2000", "label": "xlow"},
+		{ "text": "Computador até 3000", "label": "low"},
+		{ "text": "Computador até 4000", "label": "medium"},
+		{ "text": "Computador até 6000", "label": "high"},
+		{ "text": "Computador até 9000", "label": "xhigh"},
+		{ "text": "Computador até 9000", "label": "xhigh"},
+		{ "text": "Computador até 15 mil", "label": "premium"},
+		{ "text": "Mac para uso profissional", "label": "pro"},
+
+		{ "text": "Pretendo montar um computador para as seguintes funções e programas. Orçamento R$4.000 (se puder parcelar, pode ir até uns 4.500 e 5.000), Edição de videos em 4k (Adobe Premiere Pro), Render animações (After Effects), Color Grading (DaVinci Resolve), Tratamento de fotografia (Lightroom)", "label": "medium"}
 	],
 
 	"tests" : [
