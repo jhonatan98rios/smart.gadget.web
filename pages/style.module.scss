@@ -45,8 +45,8 @@
 
 .input{
   //max-width: 85%;
-  max-width: 100%;
-  width: 360px;
+  max-width: 90%;
+  width: 600px;
   height: 120px;
   margin: 32px auto 0px;
   padding: 16px;
@@ -61,7 +61,7 @@
   font-family: 'Darker Grotesque';
 
   @media(max-width: 768px){
-    width: 320px;
+    //width: 360px;
   }
 
   &::placeholder{
@@ -76,7 +76,7 @@
 }
 
 .button{
-  max-width: 360px;
+  max-width: 600px;
   width: 80%;
   height: 70px;
   margin: 16px auto;
@@ -92,7 +92,7 @@
   cursor: pointer;
 
   @media(max-width: 768px){
-    width: 320px;
+    //width: 360px;
   }
 
   @media ( max-height: 650px ) {

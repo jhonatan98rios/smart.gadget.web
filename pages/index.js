@@ -17,6 +17,13 @@ export default function Home() {
         <title>Smart Gadget</title>
         <meta name="description" content="Encontre o pc ideal para você"></meta>
         <link rel="icon" href="/favicon.ico" />
+        <meta name='application-name' content='Smart Search' />
+        <meta name='apple-mobile-web-app-capable' content='yes' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='default' />
+        <meta name='apple-mobile-web-app-title' content='Smart Search' />
+        <meta name='format-detection' content='telephone=no' />
+        <meta name='mobile-web-app-capable' content='yes' />
+        <meta name='theme-color' content='#000000' />
       </Head>
 
       <main>

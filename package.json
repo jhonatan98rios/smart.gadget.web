@@ -17,6 +17,7 @@
     "flickity": "^2.2.1",
     "natural": "^2.1.5",
     "next": "9.5.0",
+    "next-pwa": "^3.1.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-flickity-component": "^3.5.0",

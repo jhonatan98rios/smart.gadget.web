@@ -44,7 +44,7 @@ export default function Home() {
 
       <main>
         <div className={styles.container}>
-          <h2 className={styles.title}> Smart Search </h2>
+          <h2 className={styles.title}> Smart Gadget </h2>
           <label className={styles.label}>
             Me fale um pouco sobre o computador que você procura.
             <textarea 
