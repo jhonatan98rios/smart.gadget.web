@@ -6,7 +6,7 @@
     "hardware": {
       "xlow": [
         {
-          "image": "https://imgur.com/HYPP2kf",
+          "image": "https://i.imgur.com/HYPP2kf.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel Pentium G5400 (8 geração)",
           "storage": "SSD 120GB",
@@ -16,7 +16,7 @@
           "price": "R$1800,00"
         },
         {
-          "image": "https://imgur.com/jgT6LLs",
+          "image": "https://i.imgur.com/jgT6LLs.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "Ryzen 3 3200G",
           "storage": "SSD 128GB",
@@ -26,7 +26,7 @@
           "price": "R$1800,00"
         },
         {
-          "image": "https://imgur.com/WcRIo3W",
+          "image": "https://i.imgur.com/WcRIo3W.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "Ryzen 5 3350G",
           "storage": "SSD 256GB",
@@ -38,7 +38,7 @@
       ],
       "low": [
         {
-          "image": "https://imgur.com/s6xQpJX",
+          "image": "https://i.imgur.com/s6xQpJX.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel Pentium G5400 (8 geração)",
           "storage": "SSD 120GB",
@@ -48,7 +48,7 @@
           "price": "R$2400,00"
         },
         {
-          "image": "https://imgur.com/5MsuJdZ",
+          "image": "https://i.imgur.com/5MsuJdZ.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "Ryzen 3 3200G",
           "storage": "HD 1TB",
@@ -58,7 +58,7 @@
           "price": "R$2500,00"
         },
         {
-          "image": "https://imgur.com/UNOu1Id",
+          "image": "https://i.imgur.com/UNOu1Id.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I3 8100 (8 geração)",
           "storage": "SSD 120GB",
@@ -70,7 +70,7 @@
       ],
       "medium": [
         {
-          "image": "https://imgur.com/DX5WSlk",
+          "image": "https://i.imgur.com/DX5WSlk.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "Ryzen 5 3500X",
           "storage": "HD 1TB + SSD 120GB",
@@ -80,7 +80,7 @@
           "price": "R$3600,00"
         },
         {
-          "image": "https://imgur.com/u3qdND4",
+          "image": "https://i.imgur.com/u3qdND4.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "RYZEN 5 3500X",
           "storage": "HD 1TB + SSD 120GB",
@@ -90,7 +90,7 @@
           "price": "R$4100,00"
         },
         {
-          "image": "https://imgur.com/AdM2ziA",
+          "image": "https://i.imgur.com/AdM2ziA.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I5 9400F",
           "storage": "HD 1TB + SSD 120GB",
@@ -102,7 +102,7 @@
       ],
       "high": [
         {
-          "image": "https://imgur.com/zvQFWFm",
+          "image": "https://i.imgur.com/zvQFWFm.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I7 9700F",
           "storage": "HD 1TB + SSD 240GB",
@@ -112,7 +112,7 @@
           "price": "R$5500,00"
         },
         {
-          "image": "https://imgur.com/VdlUoke",
+          "image": "https://i.imgur.com/VdlUoke.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "RYZEN 5 3500X",
           "storage": "HD 1TB + SSD 240GB",
@@ -122,7 +122,7 @@
           "price": "R$6000,00"
         },
         {
-          "image": "https://imgur.com/aNe5qlR",
+          "image": "https://i.imgur.com/aNe5qlR.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I5 10400F",
           "storage": "HD 1TB + SSD 240GB",
@@ -134,7 +134,7 @@
       ],
       "xhigh": [
         {
-          "image": "https://imgur.com/I2UeLYf",
+          "image": "https://i.imgur.com/I2UeLYf.png",
           "moba": "A320MH AM4 AMD A320",
           "cpu": "RYZEN 5 3600X",
           "storage": "HD 1TB + SSD 480GB",
@@ -144,7 +144,7 @@
           "price": "R$8200,00"
         },
         {
-          "image": "https://imgur.com/YZu1PMF",
+          "image": "https://i.imgur.com/YZu1PMF.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I7-9700K",
           "storage": "HD 1TB + SSD 480GB",
@@ -154,7 +154,7 @@
           "price": "R$8300,00"
         },
         {
-          "image": "https://imgur.com/8WJAtY6",
+          "image": "https://i.imgur.com/8WJAtY6.png",
           "moba": "H310M LGA 1151",
           "cpu": "Intel I9 9900K",
           "storage": "HD 1TB + SSD 480GB",
@@ -166,7 +166,7 @@
       ],
       "premium": [
         {
-          "image": "https://imgur.com/cacapu5",
+          "image": "https://i.imgur.com/cacapu5.png",
           "moba": "B450M-Gaming AM4 AMD",
           "cpu": "RYZEN 9 3900X",
           "storage": "HD 2TB + SSD 960GB",
@@ -176,7 +176,7 @@
           "price": "R$11000,00"
         },
         {
-          "image": "https://imgur.com/JXtvL42",
+          "image": "https://i.imgur.com/JXtvL42.png",
           "moba": "Z390",
           "cpu": "Intel I7-9700KF",
           "storage": "HD 2TB + SSD 960GB",
@@ -186,7 +186,7 @@
           "price": "R$11500,00"
         },
         {
-          "image": "https://imgur.com/v1ouDDK",
+          "image": "https://i.imgur.com/v1ouDDK.png",
           "moba": "iMac Apple 27 5k",
           "cpu": "Intel Core i5",
           "storage": "HD 1TB",
@@ -198,7 +198,7 @@
       ],
       "pro": [
         {
-          "image": "https://imgur.com/bI6o6yx",
+          "image": "https://i.imgur.com/bI6o6yx.png",
           "moba": "Mac Mini Apple",
           "cpu": "Intel Core i3",
           "storage": "SSD 256GB",
@@ -208,7 +208,7 @@
           "price": "R$6600,00"
         },
         {
-          "image": "https://imgur.com/s6oExu8",
+          "image": "https://i.imgur.com/s6oExu8.png",
           "moba": "iMac Apple",
           "cpu": "Intel Core i3",
           "storage": "HD 1TB",
@@ -218,7 +218,7 @@
           "price": "R$12000"
         },
         {
-          "image": "https://imgur.com/v1ouDDK",
+          "image": "https://i.imgur.com/v1ouDDK.png",
           "moba": "iMac Apple 27 5k",
           "cpu": "Intel Core i5",
           "storage": "HD 1TB",
