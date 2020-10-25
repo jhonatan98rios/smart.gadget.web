@@ -14,9 +14,10 @@
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 48px;
-
+  line-height: 32px;
+  
   @media ( max-height: 670px ) {
-		margin-bottom: 24px;
+    margin-bottom: 24px;
   }
 }
 
