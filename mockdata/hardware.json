@@ -187,13 +187,14 @@
         },
         {
           "image": "https://i.imgur.com/v1ouDDK.png",
-          "moba": "iMac Apple 27 5k",
+          "moba": "iMac Apple",
           "cpu": "Intel Core i5",
           "storage": "HD 1TB",
           "ram": "8GB DDR4",
           "gpu": "Radeon Pro 570X 4GB",
           "fonte": "700W",
-          "price": "R$15000,00"
+          "price": "R$15000,00",
+          "tela": "27inch 5k"
         }
       ],
       "pro": [
@@ -215,17 +216,19 @@
           "ram": "8GB DDR4",
           "gpu": "Radeon Pro 555X 2GB",
           "fonte": "500W",
-          "price": "R$12000"
+          "price": "R$12000",
+          "tela": "21inch 4k"
         },
         {
           "image": "https://i.imgur.com/v1ouDDK.png",
-          "moba": "iMac Apple 27 5k",
+          "moba": "iMac Apple",
           "cpu": "Intel Core i5",
           "storage": "HD 1TB",
           "ram": "8GB DDR4",
           "gpu": "Radeon Pro 570X 4GB",
           "fonte": "500W",
-          "price": "R$15000,00"
+          "price": "R$15000,00",
+          "tela": "27inch 5k"
         }
       ]
     }
