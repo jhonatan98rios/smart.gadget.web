@@ -3,8 +3,8 @@
   text-align: center;
   margin: 80px auto;
 
-	@media ( max-height: 650px ) {
-		margin: 16px auto;
+	@media ( max-height: 670px ) {
+		margin: 24px auto;
   }
   
 }
@@ -13,6 +13,11 @@
   color: #fff;
   font-size: 30px;
   font-weight: 400;
+  margin-bottom: 48px;
+
+  @media ( max-height: 670px ) {
+		margin-bottom: 24px;
+  }
 }
 
 .button{

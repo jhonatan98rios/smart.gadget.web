@@ -38,7 +38,7 @@ function Results({router}){
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <h2 className={`${styles.title} m-b-48`}> Veja o que separamos para você </h2>
+        <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
         { content?.status == 200 && <Carousel content={content} /> }
         <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
           <div className={styles.link}> Início </div>

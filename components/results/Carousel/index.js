@@ -25,22 +25,20 @@ function Carousel({content}) {
         static
       >
 
-        { content.data.map((notebook, index)=>{
+        { content.data.map((hardware, index)=>{
           return(
             <div className={styles.card} key={index}>
               <div className={styles.imageBox}>
-                { notebook.image && <img className={styles.image} src={notebook.image} alt="notebook" /> }
+                { hardware.image && <img className={styles.image} src={hardware.image} alt="hardware" /> }
               </div>
               <div className={styles.description}>
-                <strong> {notebook.name} </strong>
-                <p> CPU: {notebook.cpu} </p>
-                <p> Armazenamento: {notebook.storage} </p>
-                <p> Ram: {notebook.ram} </p>
-                <p> GPU: {notebook.gpu} </p>
-                <p> Sistema: {notebook.so} </p>
-                <p> Tela: {notebook.screen} </p>
-                <p> Peso: {notebook.weight} </p>
-                <p> Valor aproximado: R$ {notebook.price} </p>
+                <p> CPU: {hardware.cpu} </p>
+                <p> Placa Mãe: {hardware.moba} </p>
+                <p> Armazenamento: {hardware.storage} </p>
+                <p> Ram: {hardware.ram} </p>
+                <p> GPU: {hardware.gpu} </p>
+                <p> Sistema: {hardware.so || 'Windows ou Linux'} </p>
+                <p> Valor aproximado: R$ {hardware.price} </p>
               </div>
             </div>
           )
