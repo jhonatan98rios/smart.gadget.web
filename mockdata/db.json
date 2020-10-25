@@ -49,6 +49,7 @@
 		{ "text": "Computador para games e lives", "label": "xhigh" },
 		{ "text": "PC para jogos", "label": "medium" },
 		{ "text": "PC para jogar", "label": "medium" },
+		{ "text": "PC para jogos pesados", "label": "xhigh" },
 		{ "text": "PC para rodar jogos", "label": "medium" },
 		{ "text": "Computador para rodar jogar", "label": "medium" },
 		{ "text": "PC para trabalhar e jogar", "label": "medium" },
