@@ -2,7 +2,9 @@ const Phrase = require('../models/Phrase')
 const mongoose = require('mongoose')
 const db = require("../database/connection");
 
-mongoose.connect(db.uri, { useUnifiedTopology: true, useNewUrlParser: true });
+const uri = db.uri || process.env.MONGO_KEY
+
+mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
 class PhraseController {
   async store(text, label) {
