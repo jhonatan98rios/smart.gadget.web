@@ -3,8 +3,7 @@ const {hardware} = require('../mockdata/hardware.json')
 const db = require('../mockdata/db.json')
 const fs = require('fs');
 
-
-const getGadget = async function (request){
+const getGadget = async function (request, PhraseController){
 
   let classifier;
 
@@ -27,9 +26,11 @@ const getGadget = async function (request){
     }) */
 
   } finally {
+
+    let text = request.text
     
     /* Classifie the requested phrase */
-    const label = classifier.classify(request.text);
+    const label = classifier.classify(text);
     let specs = {
       'xlow': hardware.xlow,
       'low': hardware.low,
@@ -40,6 +41,8 @@ const getGadget = async function (request){
       'pro': hardware.pro,
       'default': {"message":"Sua busca falhou, tente mais tarde"}
     };
+
+    PhraseController.store({text, label})
       
     return specs[label] || specs["default"]
   }

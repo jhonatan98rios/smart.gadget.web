@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "flickity": "^2.2.1",
+    "mongoose": "^5.10.10",
     "natural": "^2.1.5",
     "next": "9.5.0",
     "next-pwa": "^3.1.5",
