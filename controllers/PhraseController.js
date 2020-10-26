@@ -1,8 +1,10 @@
 const Phrase = require('../models/Phrase')
 const mongoose = require('mongoose')
-const db = require("../database/connection");
 
-const uri = db.uri || process.env.MONGO_KEY
+/* const db = require("../database/connection");
+const uri = db.uri // Dev */
+
+const uri = process.env.MONGO_KEY 
 
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
