@@ -43,6 +43,7 @@ function Carousel({content}) {
                 <p> Armazenamento: {hardware.storage} </p>
                 <p> Ram: {hardware.ram} </p>
                 <p> GPU: {hardware.gpu} </p>
+                <p> Tela: {hardware.screen || 'Não acompanha'}  </p>
                 <p> Sistema: {hardware.so || 'Windows ou Linux'} </p>
                 <p> Valor aproximado: R$ {hardware.price} </p>
               </div>

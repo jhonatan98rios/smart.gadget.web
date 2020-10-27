@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { withRouter, useRouter } from 'next/router'
 
 import styles from './style.module.scss'
@@ -21,12 +20,13 @@ function Results({router}){
         <meta name="description" content="Veja os pcs que separamos para você"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div className={styles.container}>
         <h2 className={`${styles.title} m-b-48`}> Entenda como o app funciona </h2>
         <p className={styles.description}>
           Encontre o computador ideal para você! 
           Através de inteligência artifícial e processameento de linguagem natural, o Smart Gadget é capaz de identificar qual hardware e software se encaixam em suas necessidades. É só inserir algumas informações sobre o uso (exemplo: "Preciso de um computador para edição de vídeo", ou até, "Quero um pc para jogar") e nossos servidores fazem todo o resto. Nenhum dado será armazenado.
-        </p>
+        </p>        
         <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
           <div className={styles.link}> Início </div>
         </div>

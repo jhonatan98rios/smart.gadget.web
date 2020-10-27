@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { withRouter, useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
@@ -41,6 +40,7 @@ function Results({router}){
       <div className={styles.container}>
         <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
         { content?.status == 200 && <Carousel content={content} /> }
+        { !content && <img src="./atom.svg" alt="" /> }
         <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
           <div className={styles.link}> Início </div>
         </div>
