@@ -29,7 +29,13 @@ function Carousel({content}) {
           return(
             <div className={styles.card} key={index}>
               <div className={styles.imageBox}>
-                { hardware.image && <img className={styles.image} src={hardware.image} alt="hardware" /> }
+                { 
+                  hardware.image && 
+                  <figure> 
+                    <img className={styles.image} src={hardware.image} alt="hardware" /> 
+                    <figcaption> Imagem do hardware (Imagens meramente ilustrativa) </figcaption>
+                  </figure>
+                }
               </div>
               <div className={styles.description}>
                 <p> CPU: {hardware.cpu} </p>
