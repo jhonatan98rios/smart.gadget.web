@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-let environment = 'dev' // dev || prod
+let environment = 'prod' // dev || prod
 let uri;
 
 if(environment == 'dev'){
