@@ -194,7 +194,8 @@
           "gpu": "Radeon Pro 570X 4GB",
           "fonte": "700W",
           "price": "R$15000,00",
-          "tela": "27inch 5k"
+          "so": "Mac OS",
+          "screen": "27inch 5k"
         }
       ],
       "pro": [
@@ -206,7 +207,8 @@
           "ram": "8GB DDR4",
           "gpu": "Intel UHD Graphics 630",
           "fonte": "500W",
-          "price": "R$6600,00"
+          "price": "R$6600,00",
+          "so": "Mac OS"
         },
         {
           "image": "https://i.imgur.com/nciCiAL.png",
@@ -217,7 +219,8 @@
           "gpu": "Radeon Pro 555X 2GB",
           "fonte": "500W",
           "price": "R$12000",
-          "tela": "21inch 4k"
+          "so": "Mac OS",
+          "screen": "21inch 4k"
         },
         {
           "image": "https://i.imgur.com/Y9SEYPX.png",
@@ -228,7 +231,8 @@
           "gpu": "Radeon Pro 570X 4GB",
           "fonte": "500W",
           "price": "R$15000,00",
-          "tela": "27inch 5k"
+          "so": "Mac OS",
+          "screen": "27inch 5k"
         }
       ]
     }
