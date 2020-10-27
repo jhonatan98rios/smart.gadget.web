@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Smart Gadget</title>
-        <script data-ad-client="ca-pub-6160256182293719" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script data-ad-client="ca-pub-1739197497968733" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="description" content="Encontre o pc ideal para você"></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta name='application-name' content='Smart Search' />
