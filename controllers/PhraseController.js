@@ -1,10 +1,15 @@
 const Phrase = require('../models/Phrase')
 const mongoose = require('mongoose')
 
-/* const db = require("../database/connection");
-const uri = db.uri // Dev */
+let environment = 'dev'
+let uri;
 
-const uri = process.env.MONGO_KEY 
+if(environment == 'dev'){
+  const db = require("../database/connection");
+  uri = db.uri
+} else {
+  uri = process.env.MONGO_KEY 
+}
 
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
