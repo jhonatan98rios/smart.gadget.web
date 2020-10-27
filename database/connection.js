@@ -1,14 +1,16 @@
 const mongoose = require('mongoose')
 
-let environment = 'prod' // dev || prod
 let uri;
 
+/* let environment = 'prod' // dev || prod
 if(environment == 'dev'){
   uri = require("./auth").uri;
 
 } else {
   uri = process.env.MONGO_KEY 
-}
+} */
+
+uri = process.env.MONGO_KEY 
 
 
 mongoose.connect(
