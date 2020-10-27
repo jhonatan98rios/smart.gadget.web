@@ -15,28 +15,9 @@
 body, html{
   overflow: hidden;
   font-family: 'Darker Grotesque', sans-serif;
-  background-color: rgba(10,10,10);
+  background-color: #111;
+  background-image: linear-gradient(to bottom, #000000, #00123B );;
   height: 100vh;
-
-  @media (max-width: 768px) {
-    background-color: rgba(10,10,10,.5);
-  }
-
-  .background-gif{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-
-    @media(max-width: 768px){
-      background-image: url('../public/circuits.gif');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 0px 0px;
-    }
-  }
 }
 
 @-ms-viewport{
