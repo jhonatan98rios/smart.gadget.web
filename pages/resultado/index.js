@@ -40,7 +40,7 @@ function Results({router}){
       <div className={styles.container}>
         <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
         { content?.status == 200 && <Carousel content={content} /> }
-        { !content && <img src="./atom.svg" alt="" /> }
+        { !content && <img src="./atom.svg" alt="loading" /> }
         <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
           <div className={styles.link}> Início </div>
         </div>

@@ -26,16 +26,13 @@
 
     @media ( max-height: 670px ) {
       min-height: auto;
-      height: 220px;
+      height: 260px;
       width: 80%;
     }
 
     .imageBox{
       text-align: center;
-
-      @media ( max-height: 670px ) {
-        height: 36px;
-      }
+      margin-bottom: 16px;
 
       .image{
         //margin: 20px auto;
@@ -52,6 +49,11 @@
           margin-top: -60px;
           width: 120px;
         }
+      }
+
+      figcaption{
+        font-size: 12px;
+        line-height: 10px;
       }
     }
 

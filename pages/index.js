@@ -29,7 +29,7 @@ export default function Home() {
 
       <main>
         <div className={styles.container}>
-          <h2 className={styles.title}> Smart Search </h2>
+          <h2 className={styles.title}> Smart Gadget </h2>
           
           <div className={`${styles.button} p-l-16 p-r-16`} onClick={ () => navigation('/pesquisar') }>
             <div className={styles.link}> 

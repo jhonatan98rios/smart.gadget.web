@@ -23,16 +23,6 @@ class PhraseController {
 
     })
   }
-
-  /* async store(text, label) {
-    try {
-      let data = await Phrase.create(text, label);  
-      console.log(data)
-    } catch (error) {
-      console.log(error)
-    }
-  } */
-
 }
 
 module.exports = new PhraseController();

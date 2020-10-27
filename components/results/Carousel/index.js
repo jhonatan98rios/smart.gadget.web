@@ -33,7 +33,7 @@ function Carousel({content}) {
                   hardware.image && 
                   <figure> 
                     <img className={styles.image} src={hardware.image} alt="hardware" /> 
-                    <figcaption> Imagem do hardware (Imagens meramente ilustrativa) </figcaption>
+                    <figcaption> Imagem do hardware <br /> (Imagens meramente ilustrativa) </figcaption>
                   </figure>
                 }
               </div>

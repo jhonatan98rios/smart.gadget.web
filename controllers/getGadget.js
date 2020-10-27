@@ -1,9 +1,10 @@
+const fs = require('fs');
 const natural = require('natural');
+const PhraseController = require('./PhraseController')
 const {hardware} = require('../mockdata/hardware.json')
 const db = require('../mockdata/db.json')
-const fs = require('fs');
 
-const getGadget = async function (request, PhraseController){
+const getGadget = async function (request){
 
   let classifier;
 
