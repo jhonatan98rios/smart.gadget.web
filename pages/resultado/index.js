@@ -37,13 +37,19 @@ function Results({router}){
         <meta name="description" content="Veja os pcs que separamos para você"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div className={styles.container}>
-        <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
-        { content?.status == 200 && <Carousel content={content} /> }
-        { !content && <img src="./atom.svg" alt="loading" /> }
-        <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
-          <div className={styles.link}> Início </div>
-        </div>
+        { !content && <img className={styles.svg} src="./atom.svg" alt="loading" /> }
+
+        { content?.status == 200 &&
+          <div>
+            <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
+            <Carousel content={content} />
+            <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
+              <div className={styles.link}> Início </div>
+            </div>
+          </div>
+        }
       </div>
     </div>
   );

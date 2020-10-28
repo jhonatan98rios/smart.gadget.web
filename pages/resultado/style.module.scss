@@ -2,11 +2,16 @@
   width: 85%;
   text-align: center;
   margin: 80px auto;
+  display: flex;
 
 	@media ( max-height: 670px ) {
 		margin: 24px auto;
   }
-  
+
+  .svg{
+    width: 100px;
+    margin-top: calc(50vh - 100px);
+  }
 }
 
 .title{
