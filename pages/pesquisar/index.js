@@ -44,16 +44,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={styles.container}>
+        <form onSubmit={() => navigation('/resultado')} className={styles.container}>
           <h2 className={styles.title}> Smart Gadget </h2>
           <label className={styles.label}>
             Me fale um pouco sobre o computador que você procura.
+            <small className={styles.small}> As frases enviadas serão armazenadas e utilizadas no treino do algoritmo </small>
             <textarea 
               type="text" 
               className={styles.input} 
               placeholder="Procuro um computador para..."
               value={search}
               onChange={e => setSearch(e.target.value) }
+              autoFocus
             />
           </label>
           { warning && <div className={`${styles.warning} m-t-16 `}> { warning } </div> }
@@ -68,7 +70,7 @@ export default function Home() {
             Voltar
           </div> 
 
-        </div>
+        </form>
       </main>
     </div>
   )

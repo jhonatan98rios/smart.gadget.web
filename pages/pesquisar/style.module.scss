@@ -35,6 +35,13 @@
     margin: 0px;
   }
 
+  .small{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 16px;
+    color: #aaa;
+  }
+
   .link{
     cursor: pointer;
     color: #fff;
@@ -49,7 +56,7 @@
   width: 90%;
   max-width: 600px;
   height: 120px;
-  margin: 32px auto 0px;
+  margin: 16px auto 0px;
   background-color: rgba(0,0,0,.8);
   padding: 16px;
   border: 1px solid #fff;
@@ -61,6 +68,11 @@
   font-weight: lighter;
   resize: none;
   font-family: 'Darker Grotesque';
+
+  &:focus{
+    border: 1px solid #28d;
+    outline: none;
+  }
 
   @media(max-width: 768px){
     //width: 360px;
