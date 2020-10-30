@@ -12,7 +12,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="transition">
       <Head>
         <title>Smart Gadget</title>
         <script data-ad-client="ca-pub-1739197497968733" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
