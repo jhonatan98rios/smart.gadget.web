@@ -1,15 +1,11 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-
+import Info from '../components/home/Info'
 import styles from './style.module.scss'
 
 export default function Home() {
 
   const router = useRouter()
-
-  function navigation(route){
-    router.push(route)
-  }
 
   return (
     <div className="transition">
@@ -29,20 +25,14 @@ export default function Home() {
 
       <main>
         <div className={styles.container}>
+          <img src="/logo.svg" className={styles.image} />
           <h2 className={styles.title}> Smart Gadget </h2>
-          
-          <div className={`${styles.button} p-l-16 p-r-16`} onClick={ () => navigation('/pesquisar') }>
+          <Info />
+          <div className={`${styles.button} p-l-16 p-r-16`} onClick={ () => router.push('/pesquisar') }>
             <div className={styles.link}> 
-              Pesquisar
+              Começar
             </div> 
           </div> 
-
-          <div className={`${styles.button} p-l-16 p-r-16`} onClick={ () => navigation('/informacoes') }>
-            <div className={styles.link}> 
-              Informações
-            </div> 
-          </div> 
-
         </div>
       </main>
     </div>
