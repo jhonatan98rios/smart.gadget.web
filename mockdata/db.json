@@ -30,6 +30,10 @@
 		{ "text": "Maquina para jogar com raytracing", "label": "xhigh" },
 		{ "text": "Computador para jogar", "label": "medium" },
 		{ "text": "Maquina para rodar jogos pesados", "label": "xhigh" },
+		{ "text": "PC para rodar jogos pesados", "label": "xhigh" },
+		{ "text": "Quero um pc para rodar jogos pesados", "label": "xhigh" },
+		{ "text": "Computador para rodar jogos pesados", "label": "xhigh" },
+		{ "text": "Quero uma maquina para rodar jogos pesados", "label": "xhigh" },
 		{ "text": "Computador para jogos", "label": "medium"},
 		{ "text": "Computador Gamer", "label": "medium" },
 		{ "text": "Maquina para rodar games", "label": "medium" },
@@ -47,6 +51,9 @@
 		{ "text": "Computador para jogar e gravar gameplay", "label": "high" },
 		{ "text": "Computador para games e streaming", "label": "xhigh" },
 		{ "text": "Computador para games e lives", "label": "xhigh" },
+		{ "text": "PC para games e lives", "label": "xhigh" },
+		{ "text": "Games e lives", "label": "xhigh" },
+		{ "text": "Máquina para games e lives", "label": "xhigh" },
 		{ "text": "PC para jogos", "label": "medium" },
 		{ "text": "PC para jogar", "label": "medium" },
 		{ "text": "PC para jogos pesados", "label": "xhigh" },
@@ -60,7 +67,14 @@
 		{ "text": "Computador para trabalho e rodar jogos", "label": "medium" },
 		{ "text": "PC para trabalhar e rodar jogos", "label": "medium" },
 		{ "text": "PC para trabalho e jogos", "label": "medium" },
-		{ "text": "Maquina para trabalho e games", "label": "high" },
+
+		{ "text": "Quero uma maquina para trabalho e games", "label": "high" },
+		{ "text": "Preciso de uma maquina para trabalho e games", "label": "high" },
+		{ "text": "Quero um pc para trabalho e games", "label": "high" },
+		{ "text": "Preciso de um pc para trabalho e games", "label": "high" },
+		{ "text": "Quero um computador para trabalho e games", "label": "high" },
+		{ "text": "Preciso de um computador para trabalho e games", "label": "high" },
+
 		{ "text": "Quero um PC para trabalho pesado", "label": "high" },
 		{ "text": "Maquina para uso profissional e games", "label": "xhigh" },
 		{ "text": "PC para uso profissional e jogos", "label": "xhigh" },
@@ -81,8 +95,20 @@
 		{ "text": "PC para jogar Call of Duty", "label": "medium" },
 		{ "text": "PC para jogar lançamentos", "label": "medium" },
 		{ "text": "PC para jogar em 4k", "label": "xhigh" },
+		{ "text": "Jogar mario bross e investir", "label": "low" },
+		{ "text": "Jogar lol e trabalhar", "label": "low" },
+		{ "text": "Jogar dota e estudar", "label": "low" },
+		{ "text": "Jogar CS e LOL", "label": "low" },
+		{ "text": "Jogar CS a 144fps", "label": "high" },
+		{ "text": "Jogar CS em 4K a 144fps", "label": "xhigh" },
 		
 		{ "text": "Quero um computador para edição de vídeo", "label": "pro" },
+		{ "text": "Quero um pc para edição de vídeo e imagens", "label": "high" },
+		{ "text": "Preciso de um pc para edição de vídeo", "label": "high" },
+		{ "text": "Pc para edição de vídeo e imagem", "label": "high" },
+		{ "text": "PC com windows para Edição de vídeo", "label": "high" },
+		{ "text": "Pc para editores de vídeo", "label": "high" },
+		{ "text": "Pc para editar vídeo", "label": "high" },
 		{ "text": "Quero um pc para edição de vídeo e imagens", "label": "high" },
 		{ "text": "Preciso de um computador para render", "label": "high" },
 		{ "text": "Computador para editar vídeo", "label": "pro" },
@@ -125,6 +151,9 @@
 		{ "text": "PC para edição de vídeo, sem ser Mac", "label": "high" },
 		{ "text": "PC para edição de vídeo com Windows", "label": "high" },
 		{ "text": "PC para jogar e fazer lives", "label": "xhigh" },
+		{ "text": "Preciso de um PC para jogar e fazer lives", "label": "xhigh" },
+		{ "text": "Quero um PC para jogar e fazer lives", "label": "xhigh" },
+		{ "text": "QUero computador para jogar e fazer lives", "label": "xhigh" },
 
 		{ "text": "Computador para Office", "label": "xlow"},
 		{ "text": "Computador para Excel", "label": "xlow"},
@@ -141,6 +170,7 @@
 		{ "text": "Maquina para jogar games leves", "label": "low" },
 		{ "text": "Maquina para games leves", "label": "low" },
 		{ "text": "Maquina para jogos leves", "label": "low" },
+
 		{ "text": "Computador Gamer barato", "label": "medium" },
 		{ "text": "PC Gamer barato", "label": "medium" },
 		{ "text": "Maquina Gamer barata", "label": "medium" },
@@ -148,13 +178,19 @@
 		{ "text": "PC para jogar barato", "label": "low" },
 		{ "text": "PC para rodar jogos barato", "label": "low" },
 		{ "text": "PC para jogos leves", "label": "low" },
-		{ "text": "PC barato para jogar", "label": "low" },
 		{ "text": "Computador barato para jogar", "label": "low" },
 		{ "text": "Computador barato para rodar jogos", "label": "low" },
 		{ "text": "Computador para jogar jogos leves", "label": "low" },
 		{ "text": "Computador para jogos leves", "label": "low" },
 		{ "text": "Computador barato para jogos", "label": "low" },
 		{ "text": "Computador barato", "label": "xlow" },
+		{ "text": "Pc barato", "label": "xlow" },
+		{ "text": "Pc barato para estudar", "label": "xlow" },
+		{ "text": "Pc barato para estudos e games", "label": "low" },
+		{ "text": "Pc barato para games", "label": "low" },
+		{ "text": "PC barato para jogar", "label": "low" },
+		{ "text": "Pc barato para edição", "label": "low" },
+
 		{ "text": "PC para jogar jogos leves", "label": "low" },
 		{ "text": "PC Gamer", "label": "medium" },
 		{ "text": "Maquina para jogar as vezes", "label": "low" },
@@ -212,6 +248,7 @@
 		{ "text": "Computador para jogar",  "label": "medium" },
 		{ "text": "PC para estudar",  "label": "xlow" },
 		{ "text": "Computador para render 3D",  "label": "high" },
+		{ "text": "PC para modelagem e render 3D",  "label": "high" },
 		{ "text": "Pc para programação",  "label": "low" },
 		{ "text": "PC para jogar em 4K",  "label": "xhigh" },
 		{ "text": "Pc para jogos leves",  "label": "low" },
@@ -230,7 +267,17 @@
 		{ "text": "Pc para analise de dados",  "label": "low" },
 		{ "text": "PC para modelagem 3D",  "label": "high" },
 		{ "text": "Procuro um pc para rodar emuladores",  "label": "medium" },
-		{ "text": "Computador para modelagem 3D com cinema 4D",  "label": "high" }
+		{ "text": "Computador para modelagem 3D com cinema 4D",  "label": "high" },
+		{ "text": "Pc para editar video", "label": "high" },
+		{ "text": "Pc para machine learning", "label": "medium" },
+		{ "text": "Pc para computação gráfica", "label": "high" },
+		{ "text": "Pc para engenharia", "label": "low" },
+		{ "text": "Pc para rodar emulador de ps2", "label": "medium" },
+		{ "text": "Preciso de um computador barato para trabalhar", "label": "xlow" },
+		{ "text": "Computador barato para games", "label": "low" },
+		{ "text": "Pc barato para trabalhar", "label": "xlow" },
+		{ "text": "Jogar fps a altas taxas de quadros", "label": "high" },
+		{ "text": "Jogar games competitivos", "label": "medium" }
 	],
 
 	"tests" : [
@@ -246,13 +293,13 @@
 		{ "text": "PC para trabalhar com audio", "label": "low"},
 		{ "text": "PC para trabalhos administrativos", "label": "xlow"},
 		{ "text": "PC para produtividade", "label": "low"},
-
-		{ "text": "Preciso de um computador para jogar e fazer lives", "label": "xhigh"},
 		{ "text": "Quero um pc para edição de vídeo", "label": "high"},
-		{ "text": "Quero um pc para jogos pesados", "label": "xhigh"},
-		{ "text": "Quero um PC para trabalho e games", "label": "high"},
-
 		{ "text": "Gostaria de um pc para jogar games leves", "label": "low"},
-		{ "text": "Preciso de um computador ultra portátil", "label": "premium"}
+		{ "text": "Preciso de um computador ultra portátil", "label": "premium"},
+		{ "text": "Preciso de um computador para jogar e fazer lives", "label": "xhigh"},
+		{ "text": "Quero um pc para jogos pesados", "label": "xhigh"},
+
+		{ "text": "Quero um PC para trabalho e games", "label": "high"}
+
 	]
 }
