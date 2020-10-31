@@ -26,7 +26,7 @@ function Results({router}){
         <p className={styles.description}>
           Encontre o computador ideal para você! <br/>
           Através de inteligência artifícial e processameento de linguagem natural, o Smart Gadget é capaz de identificar qual hardware e software se encaixam em suas necessidades. <br/>
-          É só inserir algumas informações sobre o uso (exemplo: "Preciso de um computador para edição de vídeo", ou até, "Quero um pc para jogar") e nossos servidores fazem todo o resto. Nenhum dado será armazenado.
+          É só inserir algumas informações sobre o uso (exemplo: "Preciso de um computador para edição de vídeo", ou até, "Quero um pc para jogar"), pressionar o botão "confirmar" e aguardar que nossos servidores irão trabalhar para encontrar o pc ideal para sua necessidade.
         </p>        
         <div className={`${styles.button} p-l-16 p-r-16`} href="/" onClick={ handleClick }>
           <div className={styles.link}> Início </div>
