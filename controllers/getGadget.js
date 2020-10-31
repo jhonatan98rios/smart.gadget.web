@@ -1,6 +1,6 @@
 const fs = require('fs');
 const natural = require('natural');
-const PhraseController = require('./PhraseController')
+//const PhraseController = require('./PhraseController')
 const {hardware} = require('../mockdata/hardware.json')
 const db = require('../mockdata/db.json')
 
@@ -43,7 +43,7 @@ const getGadget = async function (request){
       'default': {"message":"Sua busca falhou, tente mais tarde"}
     };
 
-    PhraseController.store({text, label})
+    //PhraseController.store({text, label})
       
     return specs[label] || specs["default"]
   }
