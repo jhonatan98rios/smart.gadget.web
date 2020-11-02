@@ -47,3 +47,9 @@ small{
   margin-top: 16px;
   color: #aaa;
 }
+
+.only-desktop{
+  @media(max-width: 768px){
+    display: none;
+  }
+}

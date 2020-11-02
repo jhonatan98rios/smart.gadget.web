@@ -12,13 +12,18 @@
   flex-direction: column;
 
   @media ( max-height: 650px ) {
-    margin: 16px auto;
+    margin: 32px auto;
   }
 
   .image{
     height: 100px;
     margin-bottom: 32px;
     filter: drop-shadow(0px 0px 100px #05b);
+
+    @media(max-width: 768px){
+      height: 64px;
+      margin-bottom: 16px;
+    }
   }
 
   .title{
