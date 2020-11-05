@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <h3 style={{
         position: "absolute",
         top: '0px',
-        right: '10px',
+        right: '30px',
         color: 'red'
       }}>
         BETA

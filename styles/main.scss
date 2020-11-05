@@ -13,11 +13,13 @@
 }
 
 body, html{
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Darker Grotesque', sans-serif;
   background-color: #111;
   background-image: linear-gradient(to bottom, #000000, #00123B );
   height: 100vh;
+  scroll-behavior: smooth;
+  z-index: 0px;
 }
 
 @-ms-viewport{
