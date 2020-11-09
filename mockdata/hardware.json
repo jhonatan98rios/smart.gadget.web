@@ -1,239 +1,315 @@
 {
-    "assign": {
-      "copyright": "Jhonatan Teixeira Rios",
-      "data": "23/10/2020"
+  "assign": {
+    "copyright": "Jhonatan Teixeira Rios",
+    "data": "23/10/2020"
+  },
+  "hardware": {
+    "xlow": [
+      {
+        "image": "https://i.imgur.com/neQJDDA.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel Pentium G5400 (8 geração)",
+        "storage": "SSD 120GB",
+        "ram": "4GB DDR4",
+        "gpu": "UHD Graphics 610",
+        "fonte": "300W",
+        "price": "R$1800,00"
+      },
+      {
+        "image": "https://i.imgur.com/JZTk1VU.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "Ryzen 3 3200G",
+        "storage": "SSD 128GB",
+        "ram": "4GB DDR4",
+        "gpu": "Radeon Vega 8 Graphics",
+        "fonte": "500W",
+        "price": "R$1800,00"
+      },
+      {
+        "image": "https://i.imgur.com/5ZTwzGD.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "Ryzen 5 3350G",
+        "storage": "SSD 256GB",
+        "ram": "8GB DDR4",
+        "gpu": "Radeon Vega 8 Graphics",
+        "fonte": "500W",
+        "price": "R$2200,00"
+      }
+    ],
+    "low": [
+      {
+        "image": "https://i.imgur.com/IbvrFj5.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel Pentium G5400 (8 geração)",
+        "storage": "SSD 120GB",
+        "ram": "8GB DDR4",
+        "gpu": "RADEON RX550 2GB",
+        "fonte": "500W",
+        "price": "R$2400,00"
+      },
+      {
+        "image": "https://i.imgur.com/TOw5AAN.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "Ryzen 3 3200G",
+        "storage": "HD 1TB",
+        "ram": "8GB DDR4",
+        "gpu": "RADEON RX550 2GB",
+        "fonte": "500W",
+        "price": "R$2500,00"
+      },
+      {
+        "image": "https://i.imgur.com/rBFW8zs.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel I3 8100 (8 geração)",
+        "storage": "SSD 120GB",
+        "ram": "8GB DDR4",
+        "gpu": "RADEON RX550 2GB",
+        "fonte": "500W",
+        "price": "R$2800,00"
+      }
+    ],
+    "medium": [
+      {
+        "image": "https://i.imgur.com/3WRCF8z.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "Ryzen 5 3500X",
+        "storage": "HD 1TB + SSD 120GB",
+        "ram": "8GB DDR4",
+        "gpu": "RADEON RX550 2GB",
+        "fonte": "500W",
+        "price": "R$3600,00"
+      },
+      {
+        "image": "https://i.imgur.com/0ulDArM.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "RYZEN 5 3500X",
+        "storage": "HD 1TB + SSD 120GB",
+        "ram": "8GB DDR4",
+        "gpu": "GEFORCE GTX 1650 SUPER 4GB",
+        "fonte": "500W",
+        "price": "R$4100,00"
+      },
+      {
+        "image": "https://i.imgur.com/FXYLT3k.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel I5 9400F",
+        "storage": "HD 1TB + SSD 120GB",
+        "ram": "8GB DDR4",
+        "gpu": "GEFORCE GTX 1660 6GB OC",
+        "fonte": "500W",
+        "price": "R$4400,00"
+      }
+    ],
+    "high": [
+      {
+        "image": "https://i.imgur.com/57dmial.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel I7 9700F",
+        "storage": "HD 1TB + SSD 240GB",
+        "ram": "16GB DDR4",
+        "gpu": "GEFORCE GTX 1660 6GB OC",
+        "fonte": "500W",
+        "price": "R$5500,00"
+      },
+      {
+        "image": "https://i.imgur.com/1l1ntgX.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "RYZEN 5 3500X",
+        "storage": "HD 1TB + SSD 240GB",
+        "ram": "16GB DDR4",
+        "gpu": "RADEON RX 5700 XT 8GB",
+        "fonte": "600W",
+        "price": "R$6000,00"
+      },
+      {
+        "image": "https://i.imgur.com/RvPnJZ0.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel I5 10400F",
+        "storage": "HD 1TB + SSD 240GB",
+        "ram": "16GB DDR4",
+        "gpu": "GEFORCE RTX 2060 SUPER 8GB",
+        "fonte": "600W",
+        "price": "R$6200,00"
+      }
+    ],
+    "xhigh": [
+      {
+        "image": "https://i.imgur.com/dc319Rf.png",
+        "moba": "A320MH AM4 AMD A320",
+        "cpu": "RYZEN 5 3600X",
+        "storage": "HD 1TB + SSD 480GB",
+        "ram": "16GB DDR4",
+        "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+        "fonte": "650W",
+        "price": "R$8200,00"
+      },
+      {
+        "image": "https://i.imgur.com/IH4bc14.png",
+        "moba": "H310M LGA 1151",
+        "cpu": "Intel I7-9700K",
+        "storage": "HD 1TB + SSD 480GB",
+        "ram": "16GB DDR4",
+        "gpu": "GEFORCE RTX 2070 SUPER 8GB",
+        "fonte": "600W",
+        "price": "R$8300,00"
+      },
+      {
+        "image": "https://i.imgur.com/KoLWRjD.png",
+        "moba": "Z390M LGA 1151",
+        "cpu": "Intel I9 9900K",
+        "storage": "HD 1TB + SSD 480GB",
+        "ram": "16GB DDR4",
+        "gpu": " GEFORCE RTX 2060 6GB",
+        "fonte": "650W",
+        "price": "R$8500,00"
+      }
+    ],
+    "premium": [
+      {
+        "image": "https://i.imgur.com/BBvBiEk.png",
+        "moba": "B450M-Gaming AM4 AMD",
+        "cpu": "RYZEN 9 3900X",
+        "storage": "HD 2TB + SSD 960GB",
+        "ram": "32GB DDR4",
+        "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+        "fonte": "700W",
+        "price": "R$11000,00"
+      },
+      {
+        "image": "https://i.imgur.com/vH4Snhr.png",
+        "moba": "Z390",
+        "cpu": "Intel I7-9700KF",
+        "storage": "HD 2TB + SSD 960GB",
+        "ram": "32GB DDR4",
+        "gpu": "GEFORCE RTX 2080 SUPER 8GB",
+        "fonte": "700W",
+        "price": "R$11500,00"
+      },
+      {
+        "image": "https://i.imgur.com/Y9SEYPX.png",
+        "moba": "iMac Apple",
+        "cpu": "Intel Core i5",
+        "storage": "HD 1TB",
+        "ram": "8GB DDR4",
+        "gpu": "Radeon Pro 570X 4GB",
+        "fonte": "700W",
+        "price": "R$15000,00",
+        "so": "Mac OS",
+        "screen": "27inch 5k"
+      }
+    ],
+    "mac": [
+      {
+        "image": "https://i.imgur.com/S91dqoH.png",
+        "moba": "Mac Mini Apple",
+        "cpu": "Intel Core i3",
+        "storage": "SSD 256GB",
+        "ram": "8GB DDR4",
+        "gpu": "Intel UHD Graphics 630",
+        "fonte": "500W",
+        "price": "R$6600,00",
+        "so": "Mac OS"
+      },
+      {
+        "image": "https://i.imgur.com/nciCiAL.png",
+        "moba": "iMac Apple",
+        "cpu": "Intel Core i3",
+        "storage": "HD 1TB",
+        "ram": "8GB DDR4",
+        "gpu": "Radeon Pro 555X 2GB",
+        "fonte": "500W",
+        "price": "R$12000",
+        "so": "Mac OS",
+        "screen": "21inch 4k"
+      },
+      {
+        "image": "https://i.imgur.com/Y9SEYPX.png",
+        "moba": "iMac Apple",
+        "cpu": "Intel Core i5",
+        "storage": "HD 1TB",
+        "ram": "8GB DDR4",
+        "gpu": "Radeon Pro 570X 4GB",
+        "fonte": "500W",
+        "price": "R$15000,00",
+        "so": "Mac OS",
+        "screen": "27inch 5k"
+      }
+    ]
+  },
+  "note-low": [
+    {
+      "name": "Motion I341TBi",
+      "image": "https://i.imgur.com/TYDBJ6t.png",
+      "moba": "Positivo",
+      "cpu": "Intel i3-8130U",
+      "storage": "HD 1TB",
+      "ram": "4GB DDR4",
+      "gpu": "Intel UHD Graphics 620",
+      "fonte": "Bateria de 38Wh",
+      "price": "R$2500,00",
+      "screen": "Tela 14"
     },
-    "hardware": {
-      "xlow": [
-        {
-          "image": "https://i.imgur.com/neQJDDA.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel Pentium G5400 (8 geração)",
-          "storage": "SSD 120GB",
-          "ram": "4GB DDR4",
-          "gpu": "UHD Graphics 610",
-          "fonte": "300W",
-          "price": "R$1800,00"
-        },
-        {
-          "image": "https://i.imgur.com/JZTk1VU.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "Ryzen 3 3200G",
-          "storage": "SSD 128GB",
-          "ram": "4GB DDR4",
-          "gpu": "Radeon Vega 8 Graphics",
-          "fonte": "500W",
-          "price": "R$1800,00"
-        },
-        {
-          "image": "https://i.imgur.com/5ZTwzGD.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "Ryzen 5 3350G",
-          "storage": "SSD 256GB",
-          "ram": "8GB DDR4",
-          "gpu": "Radeon Vega 8 Graphics",
-          "fonte": "500W",
-          "price": "R$2200,00"
-        }
-      ],
-      "low": [
-        {
-          "image": "https://i.imgur.com/IbvrFj5.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel Pentium G5400 (8 geração)",
-          "storage": "SSD 120GB",
-          "ram": "8GB DDR4",
-          "gpu": "RADEON RX550 2GB",
-          "fonte": "500W",
-          "price": "R$2400,00"
-        },
-        {
-          "image": "https://i.imgur.com/TOw5AAN.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "Ryzen 3 3200G",
-          "storage": "HD 1TB",
-          "ram": "8GB DDR4",
-          "gpu": "RADEON RX550 2GB",
-          "fonte": "500W",
-          "price": "R$2500,00"
-        },
-        {
-          "image": "https://i.imgur.com/rBFW8zs.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I3 8100 (8 geração)",
-          "storage": "SSD 120GB",
-          "ram": "8GB DDR4",
-          "gpu": "RADEON RX550 2GB",
-          "fonte": "500W",
-          "price": "R$2800,00"
-        }
-      ],
-      "medium": [
-        {
-          "image": "https://i.imgur.com/3WRCF8z.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "Ryzen 5 3500X",
-          "storage": "HD 1TB + SSD 120GB",
-          "ram": "8GB DDR4",
-          "gpu": "RADEON RX550 2GB",
-          "fonte": "500W",
-          "price": "R$3600,00"
-        },
-        {
-          "image": "https://i.imgur.com/0ulDArM.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "RYZEN 5 3500X",
-          "storage": "HD 1TB + SSD 120GB",
-          "ram": "8GB DDR4",
-          "gpu": "GEFORCE GTX 1650 SUPER 4GB",
-          "fonte": "500W",
-          "price": "R$4100,00"
-        },
-        {
-          "image": "https://i.imgur.com/FXYLT3k.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I5 9400F",
-          "storage": "HD 1TB + SSD 120GB",
-          "ram": "8GB DDR4",
-          "gpu": "GEFORCE GTX 1660 6GB OC",
-          "fonte": "500W",
-          "price": "R$4400,00"
-        }
-      ],
-      "high": [
-        {
-          "image": "https://i.imgur.com/57dmial.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I7 9700F",
-          "storage": "HD 1TB + SSD 240GB",
-          "ram": "16GB DDR4",
-          "gpu": "GEFORCE GTX 1660 6GB OC",
-          "fonte": "500W",
-          "price": "R$5500,00"
-        },
-        {
-          "image": "https://i.imgur.com/1l1ntgX.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "RYZEN 5 3500X",
-          "storage": "HD 1TB + SSD 240GB",
-          "ram": "16GB DDR4",
-          "gpu": "RADEON RX 5700 XT 8GB",
-          "fonte": "600W",
-          "price": "R$6000,00"
-        },
-        {
-          "image": "https://i.imgur.com/RvPnJZ0.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I5 10400F",
-          "storage": "HD 1TB + SSD 240GB",
-          "ram": "16GB DDR4",
-          "gpu": "GEFORCE RTX 2060 SUPER 8GB",
-          "fonte": "600W",
-          "price": "R$6200,00"
-        }
-      ],
-      "xhigh": [
-        {
-          "image": "https://i.imgur.com/dc319Rf.png",
-          "moba": "A320MH AM4 AMD A320",
-          "cpu": "RYZEN 5 3600X",
-          "storage": "HD 1TB + SSD 480GB",
-          "ram": "16GB DDR4",
-          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
-          "fonte": "650W",
-          "price": "R$8200,00"
-        },
-        {
-          "image": "https://i.imgur.com/IH4bc14.png",
-          "moba": "H310M LGA 1151",
-          "cpu": "Intel I7-9700K",
-          "storage": "HD 1TB + SSD 480GB",
-          "ram": "16GB DDR4",
-          "gpu": "GEFORCE RTX 2070 SUPER 8GB",
-          "fonte": "600W",
-          "price": "R$8300,00"
-        },
-        {
-          "image": "https://i.imgur.com/KoLWRjD.png",
-          "moba": "Z390M LGA 1151",
-          "cpu": "Intel I9 9900K",
-          "storage": "HD 1TB + SSD 480GB",
-          "ram": "16GB DDR4",
-          "gpu": " GEFORCE RTX 2060 6GB",
-          "fonte": "650W",
-          "price": "R$8500,00"
-        }
-      ],
-      "premium": [
-        {
-          "image": "https://i.imgur.com/BBvBiEk.png",
-          "moba": "B450M-Gaming AM4 AMD",
-          "cpu": "RYZEN 9 3900X",
-          "storage": "HD 2TB + SSD 960GB",
-          "ram": "32GB DDR4",
-          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
-          "fonte": "700W",
-          "price": "R$11000,00"
-        },
-        {
-          "image": "https://i.imgur.com/vH4Snhr.png",
-          "moba": "Z390",
-          "cpu": "Intel I7-9700KF",
-          "storage": "HD 2TB + SSD 960GB",
-          "ram": "32GB DDR4",
-          "gpu": "GEFORCE RTX 2080 SUPER 8GB",
-          "fonte": "700W",
-          "price": "R$11500,00"
-        },
-        {
-          "image": "https://i.imgur.com/Y9SEYPX.png",
-          "moba": "iMac Apple",
-          "cpu": "Intel Core i5",
-          "storage": "HD 1TB",
-          "ram": "8GB DDR4",
-          "gpu": "Radeon Pro 570X 4GB",
-          "fonte": "700W",
-          "price": "R$15000,00",
-          "so": "Mac OS",
-          "screen": "27inch 5k"
-        }
-      ],
-      "pro": [
-        {
-          "image": "https://i.imgur.com/S91dqoH.png",
-          "moba": "Mac Mini Apple",
-          "cpu": "Intel Core i3",
-          "storage": "SSD 256GB",
-          "ram": "8GB DDR4",
-          "gpu": "Intel UHD Graphics 630",
-          "fonte": "500W",
-          "price": "R$6600,00",
-          "so": "Mac OS"
-        },
-        {
-          "image": "https://i.imgur.com/nciCiAL.png",
-          "moba": "iMac Apple",
-          "cpu": "Intel Core i3",
-          "storage": "HD 1TB",
-          "ram": "8GB DDR4",
-          "gpu": "Radeon Pro 555X 2GB",
-          "fonte": "500W",
-          "price": "R$12000",
-          "so": "Mac OS",
-          "screen": "21inch 4k"
-        },
-        {
-          "image": "https://i.imgur.com/Y9SEYPX.png",
-          "moba": "iMac Apple",
-          "cpu": "Intel Core i5",
-          "storage": "HD 1TB",
-          "ram": "8GB DDR4",
-          "gpu": "Radeon Pro 570X 4GB",
-          "fonte": "500W",
-          "price": "R$15000,00",
-          "so": "Mac OS",
-          "screen": "27inch 5k"
-        }
-      ]
+    {
+      "name": "Ideapad S145",
+      "image": "https://i.imgur.com/upd5jzm.png",
+      "moba": "Lenovo",
+      "cpu": "Intel i3-8130U",
+      "storage": "HD 1TB",
+      "ram": "4GB DDR4",
+      "gpu": "Intel UHD Graphics 620",
+      "fonte": "Bateria de 30Wh",
+      "price": "R$2900,00",
+      "screen": "Tela 15,6"
+    },
+    {
+      "name": "Vivobook",
+      "image": "https://i.imgur.com/E0xosMc.png",
+      "moba": "Asus",
+      "cpu": "Intel i3-8130U",
+      "storage": "HD 1TB",
+      "ram": "4GB DDR4",
+      "gpu": "Intel UHD Graphics 620",
+      "fonte": "Bateria de 2200 mAh",
+      "price": "R$2800,00",
+      "screen": "Tela 15,6"
     }
-  }
+  ],
+  "note-high": [
+    {
+      "name": "Asus M570DD-DM122T",
+      "image": "https://i.imgur.com/DmvKfaN.png",
+      "moba": "Asus",
+      "cpu": "Ryzen 5 3500U",
+      "storage": "HD 1TB",
+      "ram": "8GB DDR4",
+      "gpu": "NVIDIA GTX1050 4GB",
+      "fonte": "Bateria de 4480mAh",
+      "price": "R$4.600,00",
+      "screen": "Tela 15,6"
+    },
+    {
+      "name": "Nitro 5",
+      "image": "https://i.imgur.com/lbKwAgh.png",
+      "moba": "Acer",
+      "cpu": "AMD Ryzen 7-3750H",
+      "storage": "HD 1TB, SSD 128GB",
+      "ram": "8GB DDR4",
+      "gpu": "GeForce GTX 1650 4GB",
+      "fonte": "Bateria de 4 células 55Wh 3220 mAh",
+      "price": "R$5.000,00",
+      "screen": "Tela 15,6"
+    },
+    {
+      "name": "Ideapad Gaming 3",
+      "image": "https://i.imgur.com/TXSmCXY.png",
+      "moba": "Lenovo",
+      "cpu": "Intel Core i7-10750H",
+      "storage": "SSD 256GB",
+      "ram": "8GB DDR4",
+      "gpu": "GTX 1650 4GB",
+      "fonte": "Bateria de 45Wh",
+      "price": "R$6.300,00",
+      "screen": "Tela 15,6"
+    }
+  ]
+}
