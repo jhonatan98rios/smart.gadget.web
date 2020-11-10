@@ -1,6 +1,6 @@
 const fs = require('fs');
 const natural = require('natural');
-const PhraseController = require('./PhraseController')
+//const PhraseController = require('./PhraseController')
 const {hardware} = require('../mockdata/hardware.json')
 const db = require('../mockdata/db.json')
 
@@ -39,11 +39,15 @@ const getGadget = async function (request){
       'high': hardware.high,
       'xhigh': hardware.xhigh,
       'premium': hardware.premium,
-      'pro': hardware.pro,
+      'mac': hardware.mac,
+      'nlow': hardware.nlow,
+      'nhigh': hardware.nhigh,
       'default': {"message":"Sua busca falhou, tente mais tarde"}
     };
 
-    PhraseController.store({text, label})
+    console.log(label)
+
+    /* PhraseController.store({text, label}) */
       
     return specs[label] || specs["default"]
   }

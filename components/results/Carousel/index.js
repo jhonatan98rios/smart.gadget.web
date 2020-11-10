@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Flickity from 'react-flickity-component'
 
 import styles from './style.module.scss'
@@ -38,6 +39,11 @@ function Carousel({content}) {
                 }
               </div>
               <div className={styles.description}>
+
+              { 
+                  hardware.name && <h4> {hardware.name} </h4>
+                }
+
                 <p> CPU: {hardware.cpu} </p>
                 <p> Placa Mãe: {hardware.moba} </p>
                 <p> Armazenamento: {hardware.storage} </p>

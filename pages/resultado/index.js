@@ -40,7 +40,7 @@ function Results({router}){
       <div className={styles.container}>
         { !content && <img className={styles.svg} src="./atom.svg" alt="loading" /> }
 
-        { content?.status == 200 &&
+        { (content && content.status == 200) &&
           <div>
             <h2 className={`${styles.title}`}> Veja o que separamos para você </h2>
             <Carousel content={content} />
