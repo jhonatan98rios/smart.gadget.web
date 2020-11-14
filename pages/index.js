@@ -15,6 +15,11 @@ export default function Home() {
     let vh = window.scrollY / 750
     setOpacity(1 - vh)
   }
+  
+  useEffect(() => {
+    document.querySelector('html').style.overflowY = "hidden"
+    return () => document.querySelector('html').style.overflowY = "scroll"
+  }, [])
 
   useEffect(() => {
 
