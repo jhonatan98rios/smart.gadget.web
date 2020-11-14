@@ -13,7 +13,7 @@ function Info({top}){
         </p>
         <p> É só inserir algumas informações, como: <br/>"Preciso de um computador para edição de vídeo", ou até, "Quero um pc para jogar". <br/><br/> 
         Depois é só pressionar o botão "Confirmar" e aguardar que nossos servidores irão trabalhar para encontrar o pc ideal para sua necessidade.</p> <br/>
-        <p className={styles.disclaimer}> Não forneça dados sensíveis. Os dados informados serão armazenados, catalogados e expostos em um banco de dados aberto, para o treinamento do algoritmo. </p>
+        <p className="disclaimer"> Não forneça dados sensíveis. Os dados informados serão armazenados, catalogados e expostos em um banco de dados aberto, para o treinamento do algoritmo. </p>
       </div>
 
       <Link href="#">
@@ -22,7 +22,7 @@ function Info({top}){
         </a>
       </Link>
 
-      <Link href="https://jhonatan-dev-rios.herokuapp.com/">
+      <Link href="https://jhonatan-dev-rios.herokuapp.com/" prefetch={false}>
         <a className={styles.link}>
           Powered by Jhonatan Teixeira Rios
         </a>

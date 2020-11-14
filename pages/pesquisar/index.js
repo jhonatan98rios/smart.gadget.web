@@ -69,6 +69,10 @@ export default function Home() {
             Voltar
           </div> 
 
+          <p className="disclaimer">
+            Quanto mais específica for sua busca, menos acurado será o resultado, por isso, faça buscas mais simples ou procure ajuda de um profissional
+          </p>
+
         </form>
       </main>
     </div>
