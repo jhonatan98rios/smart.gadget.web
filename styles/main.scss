@@ -58,9 +58,15 @@ small{
 
 .disclaimer{
   color: #f30;
+  max-width: 600px;
 
   @media ( max-height: 650px ) {
     font-size: 16px;
     line-height: 16px;
   }
+}
+
+.is-selected{
+  transform: scale(1.05);
+  transition: all .5s;
 }
