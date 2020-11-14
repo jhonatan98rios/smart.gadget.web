@@ -21,6 +21,12 @@ function Info({top}){
           Voltar
         </a>
       </Link>
+
+      <Link href="https://jhonatan-dev-rios.herokuapp.com/">
+        <a className={styles.link}>
+          Powered by Jhonatan Teixeira Rios
+        </a>
+      </Link>
     </div>
   );
 }
