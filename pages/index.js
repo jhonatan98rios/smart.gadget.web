@@ -15,6 +15,11 @@ export default function Home() {
     let vh = window.scrollY / 750
     setOpacity(1 - vh)
   }
+  
+  useEffect(() => {
+    document.querySelector('html').style.overflowY = "hidden"
+    return () => document.querySelector('html').style.overflowY = "scroll"
+  }, [])
 
   useEffect(() => {
 
@@ -29,7 +34,6 @@ export default function Home() {
     <div className="transition">
       <Head>
         <title>Smart Gadget</title>
-        <script data-ad-client="ca-pub-1739197497968733" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="description" content="Encontre o pc ideal para você"></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta name='theme-color' content='#000000' />

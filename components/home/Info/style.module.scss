@@ -43,6 +43,11 @@
     line-height: 20px;
     margin-bottom:0px;
   }
+
+  @media ( max-height: 650px ) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 .button{
@@ -64,7 +69,6 @@
     margin: 12px auto;
     height: 60px;
   }
-
 }
 
 .link{
@@ -81,6 +85,10 @@
   font-size: 20px;
 }
 
-.disclaimer{
-  color: #f30;
+.link{
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+  text-decoration: none;
+  font-family: 'Darker Grotesque';
 }
