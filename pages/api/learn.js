@@ -1,4 +1,4 @@
-const { learn } = require('../../Mockdata/Learn')
+const { learn } = require('../../mockdata/learn')
 
 export default async (req, res) => {
 
