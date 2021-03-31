@@ -7,10 +7,18 @@ export const learn = [
    }]
   },
   {
-    title: 'O que é uma placa mãe.',
+    title: 'O que é uma placa mãe?',
     content: [{
     image: 'https://img.terabyteshop.com.br/produto/g/placa-mae-asrock-h410m-hdvm2-lga-1200ddr4hdmidvivgam2usb32_103128.png',
     description: `A placa mãe é o componente que reúne e comunica todos os componentes de um sistema computacional. Além de permitir o tráfego de informação, a placa também alimenta alguns periféricos com a energia elétrica que recebe da fonte do gabinete. As propriedades da placa mãe são: Chipset, que é que um chip embarcado na placa que reúne todas as informações que permitirão seu funcionamento em conjunto com os outros componeentes e periféricos. Soquete é a interface de comunicação entre a CPU e a placa mãe. Cada geração de placas e processadores apresentarão um soquete. As placas modernas apresentam recursos embutidos, como dual bios para recursividade, entrada de rede, saída e entrada de audio e vídeo (dependem de GPU integrada na CPU)`
    }]
+  },
+  {
+    title: 'O que é a memória RAM?',
+    content: [{
+    image: 'https://freepikpsd.com/wp-content/uploads/2019/10/memoria-ram-png-4.png',
+    description: `A memória RAM é responsável por dar velocidade ao sistema. Basicamente, a RAM guarda temporariamente toda a informação que o computador esta utilizando, sejam os softwares e arquivos abertos, músicas e vídeos sendo reproduzidos e jogos rodando. Isso é um fator que a diferencia de um HD, por exemplo, que é mais lento e faz um armazenamento para longo prazo. A memória é volátil, ou seja, só armazena informação enquanto energizada (ligada). Toda vez que o PC é desligado essa memória é apagada.`
+   }]
   }
 ]
+
