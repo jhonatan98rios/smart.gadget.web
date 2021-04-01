@@ -40,12 +40,12 @@ export const learn = [
       image: 'https://img.terabyteshop.com.br/produto/g/fonte-gamemax-gm500-500w-80-plus-bronze-pfc-ativo-oem_55894.png',
       description: `A fonte de energia do computador é responsável por converter a voltagem da energia elétrica, que chega pelas tomadas, em voltagens menores e compatíveis, capazes de ser suportadas pelos componentes do computador. Essa peça gera valores que variam entre 12, 5 e 3,3 volts. `
     }]
-  },
-  {
-    title: 'O que é o Sistema Operacional',
-    content: [{
-      description: `É um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema e fornecer uma interface entre o hardware e o usuário. Ele funcioná como um tradutor entre os componentes eletrônicos e as ações do usuário através dos dispositivos de entrada e saída (teclado, mouse, monitor, caixa de som). O SO também oferece uma série de APIs que permitem que os desenvolvedores de softwares comuniquem seus programas aos recursos nativos da máquina, como arquivos, rede, camera e outros periféricos. Os Sistemas Operacionais mais populares atualmente são o Windows 10 (da Microsoft), Mac OS (da Apple) e as distribuições Linux, como o Ubuntu e o Android.`
-    }]
-  },
+  }
 ]
 
+/* {
+  title: 'O que é o Sistema Operacional',
+  content: [{
+    description: `É um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema e fornecer uma interface entre o hardware e o usuário. Ele funcioná como um tradutor entre os componentes eletrônicos e as ações do usuário através dos dispositivos de entrada e saída (teclado, mouse, monitor, caixa de som). O SO também oferece uma série de APIs que permitem que os desenvolvedores de softwares comuniquem seus programas aos recursos nativos da máquina, como arquivos, rede, camera e outros periféricos. Os Sistemas Operacionais mais populares atualmente são o Windows 10 (da Microsoft), Mac OS (da Apple) e as distribuições Linux, como o Ubuntu e o Android.`
+  }]
+}, */
