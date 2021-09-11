@@ -6,6 +6,8 @@ import Info from '../components/home/Info'
 import styles from './style.module.scss'
 import { useEffect, useState } from 'react'
 
+import * as ga from '../lib/ga'
+
 export default function Home() {
 
   const router = useRouter()
@@ -14,6 +16,15 @@ export default function Home() {
   function updateOpacity(){
     let vh = window.scrollY / 750
     setOpacity(1 - vh)
+  }
+
+  function handleInfoClick() {
+    ga.event('send', 'event', {
+      eventCategory: 'Institucional | Home',
+      eventAction: 'click',
+      eventLabel: 'Informações'
+    });
+
   }
   
   useEffect(() => {
@@ -51,7 +62,7 @@ export default function Home() {
           </div>
 
           <Link href="#info">
-            <a className={styles.anchor}>
+            <a onClick={handleInfoClick} className={styles.anchor}>
               Informações
             </a>
           </Link>

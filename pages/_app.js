@@ -9,12 +9,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    /* const handleRouteChange = (url) => {
-      if (typeof window !== 'undefined') {
-        ga.pageview(url)
-      }
-    } */
-
+    
     const handleRouteChange = (url) => (typeof window !== 'undefined') ? ga.pageview(url) : false
 
     router.events.on('routeChangeComplete', handleRouteChange)
